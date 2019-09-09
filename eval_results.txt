@@ -1,0 +1,8 @@
+domain_accuracy = 0.9984496
+eval__slot_loss = 0.0037142613
+eval_domain_loss = 0.0028287712
+eval_intent_loss = 0.011342322
+global_step = 5158
+intent_accuracy = 0.9984496
+loss = 0.08942678
+slot_accuracy = 0.2144186

@@ -1,0 +1,5330 @@
+[
+    {
+        "text": "\u660e\u5929\u5230\u5408\u80a5\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5408\u80a5",
+            "startDate_date": "\u660e\u5929"
+        }
+    },
+    {
+        "text": "\u4eca\u5929\u7684\u5929\u6c14\u771f\u662f\u597d\u7528\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4eca\u5929\u7684\u5929\u6c14\u771f\u662f\u597d",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u504f\u5934\u75db\u600e\u4e48\u6cbb\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u504f\u5934\u75db"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u7eb3\u5170\u6027\u5fb7\u7684\u8bcd\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u7eb3\u5170\u6027\u5fb7"
+        }
+    },
+    {
+        "text": "\u9752\u6625\u56db\u5341",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u9752\u6625\u56db\u5341"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u4e00\u4e0b\u767d\u5c45\u6613\u7684\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u767d\u5c45\u6613"
+        }
+    },
+    {
+        "text": "\u770b\u5343\u91d1\u5f52\u6765\u7b2c\u4e94\u96c6",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "episode": "\u7b2c\u4e94\u96c6",
+            "name": "\u5343\u91d1\u5f52\u6765"
+        }
+    },
+    {
+        "text": "\u6cf0\u5c71\u77f3\u6cb9\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6cf0\u5c71\u77f3\u6cb9"
+        }
+    },
+    {
+        "text": "\u5e72\u8c46\u89d2\u600e\u4e48\u70e7\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u5e72\u8c46\u89d2"
+        }
+    },
+    {
+        "text": "\u51b0\u7cd6\u846b\u82a6\u600e\u4e48\u505a\uff1f\u4f60\uff1f\u5973\u5b50\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u51b0\u7cd6\u846b\u82a6"
+        }
+    },
+    {
+        "text": "\u5e26\u6211\u53bb\u65b0\u90fd\u4f1a",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u65b0\u90fd\u4f1a"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u5f00\u6355\u9c7c\u8fbe\u4eba",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u6355\u9c7c\u8fbe\u4eba"
+        }
+    },
+    {
+        "text": "\u96c4\u5173\u6f2b\u9053\u771f\u5982\u94c1\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u96c4\u5173\u6f2b\u9053\u771f\u5982\u94c1",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u518d\u731c\u4e00\u4e2a\u8c1c\u8bed\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u67e5\u770b\u4e4b\u4e3d\u4e3d\u7684\u53f7\u7801",
+        "domain": "contacts",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e4b\u4e3d\u4e3d"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u505a\u9992\u5934",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9992\u5934"
+        }
+    },
+    {
+        "text": "\u5bab\u5916\u5b55\u600e\u4e48\u529e\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u5bab\u5916\u5b55"
+        }
+    },
+    {
+        "text": "\u6765\u9996\u6211\u7684\u672a\u6765\u4e0d\u662f\u68a6",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u6211\u7684\u672a\u6765\u4e0d\u662f\u68a6"
+        }
+    },
+    {
+        "text": "\u53e4\u60d1\u4ed4",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u53e4\u60d1\u4ed4"
+        }
+    },
+    {
+        "text": "\u67e5\u627e90\u5e74\u4ee3\u597d\u8bc4\u7684\u6b66\u4fa0\u7535\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "decade": "90\u5e74\u4ee3",
+            "payment": "\u597d\u8bc4",
+            "tag": "\u6b66\u4fa0"
+        }
+    },
+    {
+        "text": "BTVKAKU\u5c11\u513f",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "BTVKAKU\u5c11\u513f"
+        }
+    },
+    {
+        "text": "\u70e4\u725b\u6392\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u70e4\u725b\u6392"
+        }
+    },
+    {
+        "text": "\u70e4\u9e2d\uff0c\u554a\uff01",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u70e4\u9e2d"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u4e00\u4e0b\u79d1\u5927\u8baf\u98de\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u6613\u8f66\u7f51\u770b\u770b",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u6613\u8f66\u7f51"
+        }
+    },
+    {
+        "text": "\u9171\u725b\u8089\u600e\u4e48\u505a",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9171\u725b\u8089"
+        }
+    },
+    {
+        "text": "\u67e5\u627e\u5362\u7c73\u57c3\u94f6\u6cf0\u7535\u5f71\u9662\u6709\u64ad\u653e\u4ec0\u4e48\u597d\u770b\u7684\u7535\u5f71\u5417",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {
+            "theatre": "\u5362\u7c73\u57c3\u94f6\u6cf0\u7535\u5f71\u9662"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u7b2c10\u9891\u9053",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "code": "10"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u8ddf\u4eca\u5929\u7684\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u73b0\u5728\u6709\u4ec0\u4e48\u597d\u7684\u7535\u89c6\u5267\u3002",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u89c6\u5267",
+            "datetime_time": "\u73b0\u5728"
+        }
+    },
+    {
+        "text": "\u4e2d\u592e\u53f0\u4e94\u5957",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u4e2d\u592e\u53f0\u4e94\u5957"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u641c\u72d0\u65b0\u95fb",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "media": "\u641c\u72d0"
+        }
+    },
+    {
+        "text": "\u4e03\u661f\u5f69",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "\u4e03\u661f\u5f69"
+        }
+    },
+    {
+        "text": "\u7ed9\u5b5f\u5357\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5b5f\u5357"
+        }
+    },
+    {
+        "text": "\u7cd6\u918b\u6392\u9aa8\u600e\u4e48\u505a\uff1f\u597d\u4e86\u989d\uff0c\u4f60\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7cd6\u918b\u6392\u9aa8"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u7535\u5f71\u53f0\u5317\u98d8\u96ea",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "name": "\u53f0\u5317\u98d8\u96ea"
+        }
+    },
+    {
+        "text": "\u67e5\u5b81\u6ce2\u5230\u5317\u4eac\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5317\u4eac",
+            "startLoc_city": "\u5b81\u6ce2"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u5fb7\u5dde\u6251\u514b",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u5fb7\u5dde\u6251\u514b"
+        }
+    },
+    {
+        "text": "\u6211\u4eca\u5929\u5e2e\u7237\u7237\u6d17\u8863\u670d\u7684\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6211\u4eca\u5929\u5e2e\u7237\u7237\u6d17\u8863\u670d",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u8349\u867e\u5c3e\u600e\u6837\u505a\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u867e\u5c3e"
+        }
+    },
+    {
+        "text": "\u5931\u660e\u4e86\u600e\u4e48\u529e\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u5931\u660e"
+        }
+    },
+    {
+        "text": "\u6e29\u5dde\u5230\u745e\u660c\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "\u745e\u660c",
+            "startLoc_city": "\u6e29\u5dde"
+        }
+    },
+    {
+        "text": "\u897f\u660c\u5230\u6210\u90fd\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6210\u90fd",
+            "startLoc_area": "\u897f\u660c"
+        }
+    },
+    {
+        "text": "\u4e94\u7528\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e94",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u5f97\u4e86\u76ae\u80a4\u75c5\u600e\u4e48\u529e\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u76ae\u80a4\u75c5"
+        }
+    },
+    {
+        "text": "\u6885\u6bd2\u600e\u4e48\u6cbb\u7597\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u6885\u6bd2"
+        }
+    },
+    {
+        "text": "\u7ffb\u8bd1\u82ac\u5170",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u82ac\u5170"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u770b\u4e2d\u592e\u4e94\u53f0",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u4e2d\u592e\u4e94\u53f0"
+        }
+    },
+    {
+        "text": "\u5b8f\u5927\u4ff1\u4e50\u90e8\u8d5b\u7a0b\u3002",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5b8f\u5927"
+        }
+    },
+    {
+        "text": "\u4e16\u754c\u519b\u4e8b\u4e2d\u592e\u53f0\u4e16\u754c\u519b\u4e8b",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e16\u754c\u519b\u4e8b",
+            "tvchannel": "\u4e2d\u592e\u53f0"
+        }
+    },
+    {
+        "text": "\u8fd1\u89c6\u773c\u600e\u4e48\u6cbb\u7597",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u8fd1\u89c6\u773c"
+        }
+    },
+    {
+        "text": "\u4fdd\u9669\uff0c\u9178\u8fa3\u571f\u8c46\u4e1d\u600e\u4e48\u7092\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9178\u8fa3\u571f\u8c46\u4e1d"
+        }
+    },
+    {
+        "text": "\u73b0\u5728\u70ed\u95e8\u7684\u7535\u89c6\u5267\u662f\u4ec0\u4e48",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u89c6\u5267",
+            "popularity": "\u70ed\u95e8"
+        }
+    },
+    {
+        "text": "\u4eca\u5929\u6709\u4ec0\u4e48\u519b\u4e8b\u65b0\u95fb",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "category": "\u519b\u4e8b",
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u9648\u5fe0\u5b9e\u7684\u7231\u60c5\u5c0f\u8bf4\u300a\u767d\u9e7f\u539f\u300b",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u9648\u5fe0\u5b9e",
+            "category": "\u7231\u60c5",
+            "name": "\u767d\u9e7f\u539f"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u80cc\u4e2a\u674e\u767d\u7684\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u641c\u7d22\u4e00\u4e0b\u7f8a\u8089\u9762\u7247\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7f8a\u8089\u9762\u7247"
+        }
+    },
+    {
+        "text": "\u6253\u7535\u8bdd\u7ed9\u963f\u534e",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u963f\u534e"
+        }
+    },
+    {
+        "text": "\u56db\u5ddd\u7f8e\u98df\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u56db\u5ddd\u7f8e\u98df"
+        }
+    },
+    {
+        "text": "\u8783\u87f9\u600e\u4e48\u84b8\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u8783\u87f9"
+        }
+    },
+    {
+        "text": "\u5357\u4eac\u718a\u732b\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5357\u4eac\u718a\u732b"
+        }
+    },
+    {
+        "text": "\u80a9\u5468\u708e\uff0c\u8981\u600e\u4e48\u6cbb\u7597\u3002",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u80a9\u5468\u708e"
+        }
+    },
+    {
+        "text": "\u6211\u597d\u60f3\u542c\u65b0\u57ce\u77e5\u8baf\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u65b0\u57ce\u77e5\u8baf\u53f0"
+        }
+    },
+    {
+        "text": "\u8bb2\u4e2a\u7b11\u8bdd\u5417",
+        "domain": "joke",
+        "intent": NaN,
+        "slots": {}
+    },
+    {
+        "text": "\u600e\u4e48\u505a\uff1f\u9178\u83dc\u9c7c\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9178\u83dc\u9c7c"
+        }
+    },
+    {
+        "text": "\u547c\u53eb\u5e7f\u5c81",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u5e7f\u5c81"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u6d77\u87ba\u6c34\u6ce5\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6d77\u87ba\u6c34\u6ce5"
+        }
+    },
+    {
+        "text": "\u957f\u6c99\u5230\u6000\u5316\u7684\u6c7d\u8f66\u3002",
+        "domain": "bus",
+        "intent": "QUERY",
+        "slots": {
+            "Dest": "\u6000\u5316",
+            "Src": "\u957f\u6c99"
+        }
+    },
+    {
+        "text": "\u4f60\u53eb\u4ec0\u4e48\u540d\u5b57\u7ffb\u8bd1\u4e00\u4e0b",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4f60\u53eb\u4ec0\u4e48\u540d\u5b57"
+        }
+    },
+    {
+        "text": "\u5206\u624b\u65f6\uff0c\u80cc\u4e00\u9996\u8bd7\u5427\uff1f",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "\u6253\u7535\u8bdd\u7ed9\u9648\u96f7",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u9648\u96f7"
+        }
+    },
+    {
+        "text": "\u5317\u4eac\u4f53\u80b2\u9891\u9053\u660e\u5929\u7684\u8282\u76ee\u5355",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u660e\u5929",
+            "tvchannel": "\u5317\u4eac\u4f53\u80b2\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u641c\u72d0\u65b0\u95fb",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u641c\u72d0\u65b0\u95fb"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u53bb\u8d35\u9633\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u8d35\u9633",
+            "startDate_date": "\u660e\u5929"
+        }
+    },
+    {
+        "text": "\u70e4\u9e21\u7fc5\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u70e4\u9e21\u7fc5"
+        }
+    },
+    {
+        "text": "\u4e0a\u6d77\u7533\u82b1\u7684\u8d5b\u7a0b\u3002",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e0a\u6d77\u7533\u82b1"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u4e0a\u4e0b\u65b0\u6d6a\u7f51",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u65b0\u6d6a\u7f51"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u77e5\u9053\u79d1\u5927\u8baf\u98de\u7684\u5e02\u503c",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u6069\uff0c\u7ea2\u70e7\u571f\u8c46\u600e\u4e48\u505a\u6211\u60f3\u5b66\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u70e7\u571f\u8c46"
+        }
+    },
+    {
+        "text": "\u7ffb\u8bd1\u674e\u6dfc",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u674e\u6dfc"
+        }
+    },
+    {
+        "text": "\u5657\u6211\u60f3\u542c\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u516d\u5b89\u5e02\u98de\u4e91\u536b\u751f\u9662\u5728\u54ea\u91cc",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_city": "\u516d\u5b89\u5e02",
+            "location_poi": "\u98de\u4e91\u536b\u751f\u9662"
+        }
+    },
+    {
+        "text": "\u704c\u6c64\u5c0f\u7b3c\u5305\u600e\u6837\u505a\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u704c\u6c64\u5c0f\u7b3c\u5305"
+        }
+    },
+    {
+        "text": "\u4e2d\u534e\u519b\u4e8b\u7f51",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u4e2d\u534e\u519b\u4e8b\u7f51"
+        }
+    },
+    {
+        "text": "\u5357\u4eac\u5230\u53a6\u95e8\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u53a6\u95e8",
+            "startLoc_city": "\u5357\u4eac"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u6cc9\u5dde\u5230\u4e0a\u6d77\u7684\u52a8\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u52a8\u8f66",
+            "endLoc_city": "\u4e0a\u6d77",
+            "startLoc_city": "\u6cc9\u5dde"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u7435\u7436\u884c\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7435\u7436\u884c"
+        }
+    },
+    {
+        "text": "\u6d4e\u5357\u53bb\u804a\u57ce\u7684\u6c7d\u8f66\u3002",
+        "domain": "bus",
+        "intent": "QUERY",
+        "slots": {
+            "Dest": "\u804a\u57ce",
+            "Src": "\u6d4e\u5357"
+        }
+    },
+    {
+        "text": "\u4e94\u6886\u74dc\u9e21\u86cb\u6c64\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9e21\u86cb\u6c64"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u53bb\u5357\u660c\u7684\u822a\u73ed\u3002",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5357\u660c",
+            "startDate_date": "\u660e\u5929"
+        }
+    },
+    {
+        "text": "\u9020\u5316\u949f\u795e\u79c0\u7684\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u9020\u5316\u949f\u795e\u79c0",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u5e7f\u5dde\u5230\u957f\u845b\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_area": "\u957f\u845b",
+            "startDate_date": "\u660e\u5929",
+            "startLoc_city": "\u5e7f\u5dde"
+        }
+    },
+    {
+        "text": "\u56fd\u9632\u519b\u4e8b\u9891\u90532\u5929\u540e\u64ad\u634d\u536b\u8005",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "2\u5929\u540e",
+            "name": "\u634d\u536b\u8005",
+            "tvchannel": "\u56fd\u9632\u519b\u4e8b"
+        }
+    },
+    {
+        "text": "\u8d85\u7ea7\u6218\u8230\u7535\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "name": "\u8d85\u7ea7\u6218\u8230"
+        }
+    },
+    {
+        "text": "\u6211\u4eec\u4e00\u8d77\u53bb\u73a9\u5427\u7528\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6211\u4eec\u4e00\u8d77\u53bb\u73a9\u5427",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u80c6\u7ed3\u77f3\u600e\u6837\u6cbb\u7597\u3002",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u80c6\u7ed3\u77f3"
+        }
+    },
+    {
+        "text": "\u7ed9\u4e25\u5de7\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u4e25\u5de7"
+        }
+    },
+    {
+        "text": "\u5982\u4f55\u6cbb\u7597\u811a\u81ed\u3002",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u811a\u81ed"
+        }
+    },
+    {
+        "text": "\u4e0a\u6d77\u5230\u6dee\u5b89\u7684\u98de\u673a",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6dee\u5b89",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u5927\u897f\u5357\u527f\u532a\u8bb0",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5927\u897f\u5357\u527f\u532a\u8bb0"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6dee\u5b89\u5230\u77f3\u5bb6\u5e84\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u77f3\u5bb6\u5e84",
+            "startLoc_city": "\u6dee\u5b89"
+        }
+    },
+    {
+        "text": "\u4e0b\u534a\u5e74\u7684\u7535\u89c6\u5267",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u89c6\u5267",
+            "datetime_date": "\u4e0b\u534a\u5e74"
+        }
+    },
+    {
+        "text": "\u5c45\u7136\u80a1\u4efd\u80a1\u7968\u600e\u4e48\u6837",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5c45\u7136\u80a1\u4efd"
+        }
+    },
+    {
+        "text": "\u7ed9\u59d0\u59d0\u53d1\u77ed\u4fe1\u6211\u4eca\u5929\u665a\u4e0a\u665a\u70b9\u56de\u53bb\u4f60\u5c31\u522b\u7b49\u6211\u5403\u996d",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u6211\u4eca\u5929\u665a\u4e0a\u665a\u70b9\u56de\u53bb\u4f60\u5c31\u522b\u7b49\u6211\u5403\u996d",
+            "name": "\u59d0\u59d0"
+        }
+    },
+    {
+        "text": "\u82e5\u76f8\u60dc\u4e0d\u5f03\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u82e5\u76f8\u60dc\u4e0d\u5f03",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u5317\u7586\u6218\u58eb",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5317\u7586\u6218\u58eb"
+        }
+    },
+    {
+        "text": "\u5c01\u795e\u699c",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5c01\u795e\u699c"
+        }
+    },
+    {
+        "text": "\u5e8a\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u5e8a",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u5f00\u542fqq",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "qq"
+        }
+    },
+    {
+        "text": "\u5e7f\u5dde\u5230\u5b5d\u611f\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5b5d\u611f",
+            "startLoc_city": "\u5e7f\u5dde"
+        }
+    },
+    {
+        "text": "\u6cbf\u9014\u7684\u79d1\u5927\u8baf\u98de",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u6211\u6717\u8bf5\u5510\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u5408\u80a5\u660e\u5929\u7684\u6e7f\u5ea6\u5982\u4f55",
+        "domain": "weather",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u660e\u5929",
+            "location_city": "\u5408\u80a5",
+            "subfocus": "\u6e7f\u5ea6"
+        }
+    },
+    {
+        "text": "\u8bfb\u53e5\u8bd7\u6765\u542c\u542c\u3002",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "\u4f60\u600e\u4e48\u4e86\u82f1\u6587\u600e\u4e48\u8bb2",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4f60\u600e\u4e48\u4e86",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u8bd7\u8bcd\u6ee1\u6c5f\u7ea2\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6ee1\u6c5f\u7ea2"
+        }
+    },
+    {
+        "text": "\u7ed9\u5c0f\u9633\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5c0f\u9633"
+        }
+    },
+    {
+        "text": "\u8baf\u98de\u8bed\u97f3\u6211\u60f3\u77e5\u9053\u5c71\u4e1c\u7701\u4e1c\u8425\u5e02\u4eca\u5929\u7684\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929",
+            "location_city": "\u4e1c\u8425\u5e02",
+            "location_province": "\u5c71\u4e1c\u7701"
+        }
+    },
+    {
+        "text": "\u544a\u8bc9\u6211\u4eca\u5929\u7684\u65b0\u95fb\u5185\u5bb9",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u4e0a\u6d77\u4e1c\u65b9\u536b\u89c6\u73b0\u5728\u5728\u64ad\u653e\u4ec0\u4e48\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "\u73b0\u5728",
+            "tvchannel": "\u4e0a\u6d77\u4e1c\u65b9\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u6b63\u97f5\u6253\u5f00\u76f8\u673a",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u76f8\u673a"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u542c\u8fd8\u662f\u4f1a\u8fd9\u9996\u6b4c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u8fd8\u662f\u4f1a"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u6717\u8bf5\u4e00\u4e0b\u5cb3\u98de\u7684\u6ee1\u6c5f\u7ea2\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u5cb3\u98de",
+            "name": "\u6ee1\u6c5f\u7ea2"
+        }
+    },
+    {
+        "text": "\u6253\u7535\u8bdd\u7ed9\u8d3e\u9752\u5b50",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u8d3e\u9752\u5b50"
+        }
+    },
+    {
+        "text": "\u7f8e\u83f1\u7535\u5668\u7684\u6628\u65e5\u6536\u76d8\u4ef7\u662f\u591a\u5c11",
+        "domain": "stock",
+        "intent": "CLOSEPRICE_QUERY",
+        "slots": {
+            "name": "\u7f8e\u83f1\u7535\u5668",
+            "yesterday": "\u6628\u65e5"
+        }
+    },
+    {
+        "text": "\u80cc\u8bf5\u5510\u8bd7\u4e09\u767e\u9996\u9759\u591c\u601d\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510",
+            "name": "\u9759\u591c\u601d"
+        }
+    },
+    {
+        "text": "\u5929\u624d\u78b0\u9ebb\u74dc",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5929\u624d\u78b0\u9ebb\u74dc"
+        }
+    },
+    {
+        "text": "\u7ffb\u8bd1\u79cb\u5929",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u79cb\u5929"
+        }
+    },
+    {
+        "text": "\u5c3f\u9053\u708e\u600e\u4e48\u529e",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u5c3f\u9053\u708e"
+        }
+    },
+    {
+        "text": "\u97e9\u56fd\u7535\u89c6\u8fde\u7eed\u5267\u8001\u5927",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "\u97e9\u56fd",
+            "category": "\u7535\u89c6\u8fde\u7eed\u5267",
+            "name": "\u8001\u5927"
+        }
+    },
+    {
+        "text": "\u90a3\u4f60\u67e5\u4e00\u4e0b\u6700\u8fd1\u7684\u70ed\u95e8\u7535\u5f71\u662f\u4ec0\u4e48\uff1f",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "popularity": "\u70ed\u95e8",
+            "timeDescr": "\u6700\u8fd1"
+        }
+    },
+    {
+        "text": "\u66ff\u6211\u67e5\u770b\u65b0\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "LAUNCH",
+        "slots": {}
+    },
+    {
+        "text": "\u7ea2\u70e7\u8089\u600e\u4e48\u716e\u554a",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u70e7\u8089"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u80cc\u4e00\u9996\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "\u4eca\u5929\u7684\u65b0\u95fb\u6709\u4ec0\u4e48\uff1f",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u67e5\u627e\u4e00\u4e0b\u4eca\u5929\u665a\u4e0a\u6709\u4ec0\u4e48\u7535\u89c6\u8282\u76ee\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8282\u76ee",
+            "datetime_date": "\u4eca\u5929",
+            "datetime_time": "\u665a\u4e0a"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u67e5\u4e00\u4e0b\u4ec0\u4e48\u65f6\u95f4\u6709\u64ad\u653e\u5929\u5929\u5411\u4e0a",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5929\u5929\u5411\u4e0a"
+        }
+    },
+    {
+        "text": "\u9ed1\u7c73\u7ea2\u8c46\u7ca5\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9ed1\u7c73\u7ea2\u8c46\u7ca5"
+        }
+    },
+    {
+        "text": "\u53d1\u9001\u77ed\u4fe1\u7ed9\u4e1c\u839e\u674e\u6708\u534e\u5c31\u8bf4\u4eca\u5929\u8d76\u7d27\u56de\u6765",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u4eca\u5929\u8d76\u7d27\u56de\u6765",
+            "name": "\u4e1c\u839e\u674e\u6708\u534e"
+        }
+    },
+    {
+        "text": "\u79d1\u5927\u8baf\u98de\u7684\u80a1\u7968\u662f\u591a\u5c11a",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u7172\u9e21\u6c64\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7172\u9e21\u6c64"
+        }
+    },
+    {
+        "text": "\u547c\u53eb\u8001\u516c",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u8001\u516c"
+        }
+    },
+    {
+        "text": "\u64ad\u653e\u7530\u56ed\u7684\u6b4c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "artist": "\u7530\u56ed"
+        }
+    },
+    {
+        "text": "\u53bb\u5e7f\u5dde\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5e7f\u5dde"
+        }
+    },
+    {
+        "text": "\u5468\u53e3\u5728\u54ea\u91cc",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_city": "\u5468\u53e3"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u542c\u674e\u767d\u7684\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u9ec4\u8c46\u732a\u8e44\u6c64\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9ec4\u8c46\u732a\u8e44\u6c64"
+        }
+    },
+    {
+        "text": "\u53d1\u6761\u77ed\u4fe1\u7ed9\u5f20\u4e9a\u4e1c",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5f20\u4e9a\u4e1c"
+        }
+    },
+    {
+        "text": "\u6700\u8fd1\u6709\u4ec0\u4e48\u597d\u7535\u5f71\u5417\uff1f",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u7ed9\u5f20\u514b\u8fbe\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5f20\u514b\u8fbe"
+        }
+    },
+    {
+        "text": "\u8bf7\u5e2e\u6211\u8c03\u4e00\u4e0b\u7535\u53f0\u5230\u9547\u6c5f\u65b0\u95fb\u5e7f\u64ad",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u9547\u6c5f\u65b0\u95fb\u5e7f\u64ad"
+        }
+    },
+    {
+        "text": "\u660c\u9c7c\u7684\u505a\u6cd5",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u660c\u9c7c"
+        }
+    },
+    {
+        "text": "\u6765\u4e2a\u6700\u65b0\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "keyword": "\u6700\u65b0"
+        }
+    },
+    {
+        "text": "\u5171\u540c\u5173\u6ce8",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5171\u540c\u5173\u6ce8"
+        }
+    },
+    {
+        "text": "\u628a\u9ad8\u5efa\u6e05\u7684\u53f7\u7801\u53d1\u7ed9\u6f58\u9752\u534e",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "\u9ad8\u5efa\u6e05",
+            "receiver": "\u6f58\u9752\u534e"
+        }
+    },
+    {
+        "text": "\u4ece\u897f\u5b89\u5230\u77f3\u5634\u5c71\u7684\u6c7d\u8f66\u7968\u3002",
+        "domain": "bus",
+        "intent": "QUERY",
+        "slots": {
+            "Dest": "\u77f3\u5634\u5c71",
+            "Src": "\u897f\u5b89"
+        }
+    },
+    {
+        "text": "\u6ee1\u56ed\u82b1\u83ca\u90c1\u91d1\u9ec4\u7684\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u6ee1\u56ed\u82b1\u83ca\u90c1\u91d1\u9ec4",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u94f6\u884c\u80a1\u7968\u600e\u4e48\u6837",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e2d\u56fd\u94f6\u884c"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u4e2a\u706f\u8c1c\uff0c\u4f60\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u706f\u8c1c"
+        }
+    },
+    {
+        "text": "\u6e56\u5357\u53f0\u6f14\u4ec0\u4e48\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "\u6e56\u5357\u53f0"
+        }
+    },
+    {
+        "text": "\u6392\u9aa8\u600e\u4e48\u5f04\u624d\u597d\u5403\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u6392\u9aa8"
+        }
+    },
+    {
+        "text": "\u7532\u4ea2\u600e\u4e48\u6cbb\u7597\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u7532\u4ea2"
+        }
+    },
+    {
+        "text": "chc\u9ad8\u6e05\u7535\u5f71\u6628\u5929\u665a\u4e0a\u7684\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u6628\u5929",
+            "datetime_time": "\u665a\u4e0a",
+            "tvchannel": "chc\u9ad8\u6e05\u7535\u5f71"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u6d66\u53e3\u65b0\u95fb\u7efc\u5408\u9891\u9053",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6d66\u53e3\u65b0\u95fb\u7efc\u5408\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u53d8\u5f62\u91d1\u521a\u54e6",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u53d8\u5f62\u91d1\u521a"
+        }
+    },
+    {
+        "text": "\u53cc\u8272\u7403\u7684\u5f00\u5956\u53f7\u7801\u662f\u591a\u5c11\uff1f",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "\u53cc\u8272\u7403"
+        }
+    },
+    {
+        "text": "\u80cc\u9996\u7edd\u53e5\u7684\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7edd\u53e5"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u6bdb\u6cfd\u4e1c\u7684\u8bcd\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u6bdb\u6cfd\u4e1c"
+        }
+    },
+    {
+        "text": "\u9992\u5934\u600e\u4e48\u505a\u5417\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9992\u5934"
+        }
+    },
+    {
+        "text": "\u5f20\u7ecd\u521a\u7684\u7efc\u827a\u8282\u76ee",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "\u5f20\u7ecd\u521a",
+            "category": "\u8282\u76ee",
+            "tag": "\u7efc\u827a"
+        }
+    },
+    {
+        "text": "\u767d\u5e26\u5f02\u5e38\u3002",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u767d\u5e26\u5f02\u5e38"
+        }
+    },
+    {
+        "text": "\u6768\u4e09\u59d0\u544a\u72b6",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6768\u4e09\u59d0\u544a\u72b6"
+        }
+    },
+    {
+        "text": "\u6211\u7ed9\u4f60\u6253\u7535\u8bdd\u884c\u5417",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {}
+    },
+    {
+        "text": "\u4ece\u4f59\u59da\u5230\u8d35\u9633\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u8d35\u9633",
+            "startLoc_area": "\u4f59\u59da"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u548f\u67f3\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u548f\u67f3"
+        }
+    },
+    {
+        "text": "\u6717\u8bf5\u674e\u767d\u7684\u9759\u591c\u601d\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d",
+            "name": "\u9759\u591c\u601d"
+        }
+    },
+    {
+        "text": "\u55ef\u6253\u5f00\u76f8\u673a",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u76f8\u673a"
+        }
+    },
+    {
+        "text": "\u65f6\u95f4\u7684\u82f1\u6587\u600e\u4e48\u8bb2",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u65f6\u95f4",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u6765\u9996\u674e\u767d\u7684\u8bd7\u96c6\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u8d75\u5305\u5b50\u600e\u4e48\u505a\u7684\uff0c\u4f60\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u5305\u5b50"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u5199\u6761\u65b0\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "CREATE",
+        "slots": {}
+    },
+    {
+        "text": "\u6211\u60f3\u542c11\u5e74\uff0c\u8fd9\u9996\u6b4c\u54e6\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "11\u5e74"
+        }
+    },
+    {
+        "text": "\u4f60\u53eb\u4ec0\u4e48\u540d\u5b57\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4f60\u53eb\u4ec0\u4e48\u540d\u5b57",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u592b\u59bb\u80ba\u7247\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u592b\u59bb\u80ba\u7247"
+        }
+    },
+    {
+        "text": "\u86cb\u9ec4\u7117\u85af\u6761\u600e\u4e48\u505a",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u86cb\u9ec4\u7117\u85af\u6761"
+        }
+    },
+    {
+        "text": "\u5148\u950b\u4e52\u7fbd",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u5148\u950b\u4e52\u7fbd"
+        }
+    },
+    {
+        "text": "\u8d35\u9633\u5230\u54c8\u5c14\u6ee8\u98de\u673a",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u54c8\u5c14\u6ee8",
+            "startLoc_city": "\u8d35\u9633"
+        }
+    },
+    {
+        "text": "\u97f3\u4e50\u64ad\u653e\u5668",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u97f3\u4e50\u64ad\u653e\u5668"
+        }
+    },
+    {
+        "text": "\u90a3\u5c31\u6765\u4e00\u9996\u674e\u767d\u7684\u8bd7\u8bcd\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u6211\u6b63\u5728\u7761\u89c9\u7528\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6211\u6b63\u5728\u7761\u89c9",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u7206\u7b11\u8c1c\u8bed",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u6c5f\u897f\u94dc\u4e1a\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6c5f\u897f\u94dc\u4e1a"
+        }
+    },
+    {
+        "text": "\u4ece\u4e8c\u624b\u8f66\u5e02\u573a\u5230\u516b\u4e00\u5e7f\u573a\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u516b\u4e00\u5e7f\u573a",
+            "startLoc_poi": "\u4e8c\u624b\u8f66\u5e02\u573a"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u5357\u4eac\u5230\u5f90\u5dde\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5f90\u5dde",
+            "startDate_date": "\u660e\u5929",
+            "startLoc_city": "\u5357\u4eac"
+        }
+    },
+    {
+        "text": "\u627e\u6df1\u5733\u536b\u89c6",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6df1\u5733\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u67e5\u770b\u6ec1\u5dde\u5230\u5357\u4eac\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5357\u4eac",
+            "startLoc_city": "\u6ec1\u5dde"
+        }
+    },
+    {
+        "text": "\u91cd\u5e86\u5230\u6210\u90fd\u7684\u706b\u8f66\u7968\u591a\u5c11\u94b1",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6210\u90fd",
+            "startLoc_city": "\u91cd\u5e86"
+        }
+    },
+    {
+        "text": "\u6c5f\u6db5\u79cb\u5f71\u96c1\u521d\u98de\u7684\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u6c5f\u6db5\u79cb\u5f71\u96c1\u521d\u98de",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u8bfb\u5fc3\u4e13\u5bb6",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u8bfb\u5fc3\u4e13\u5bb6"
+        }
+    },
+    {
+        "text": "\u4e00\u5343\u4e94\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e00\u5343\u4e94",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u4e00\u751f\u6700\u7231\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u4e00\u751f\u6700\u7231"
+        }
+    },
+    {
+        "text": "\u591c\u8bbf\u5438\u8840\u9b3c",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u591c\u8bbf\u5438\u8840\u9b3c"
+        }
+    },
+    {
+        "text": "\u554a\uff0c\u793e\u4f1a\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "category": "\u793e\u4f1a"
+        }
+    },
+    {
+        "text": "\u67e5\u4e00\u4e0b\u6f4d\u574a\u5230\u5a01\u6d77\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5a01\u6d77",
+            "startLoc_city": "\u6f4d\u574a"
+        }
+    },
+    {
+        "text": "\u600e\u6837\u505a\u7cd6\u918b\u6392\u9aa8\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7cd6\u918b\u6392\u9aa8"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u660e\u5929\u5357\u9633\u5230\u4e0a\u6d77\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e0a\u6d77",
+            "startDate_date": "\u660e\u5929",
+            "startLoc_city": "\u5357\u9633"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u4e0b\u7eff\u5de8\u4eba",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7eff\u5de8\u4eba"
+        }
+    },
+    {
+        "text": "\u4eca\u5929\u4e0a\u8bc1\u6307\u6570\u662f\u51e0\u70b9",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e0a\u8bc1\u6307\u6570"
+        }
+    },
+    {
+        "text": "\u706b\u6c14\u51b2\u5929\uff0c\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u706b\u6c14\u51b2\u5929",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u770b\u4eca\u5929\u7684\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u7b54\u590d\uff0c\u6211\u8981\u542c\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u5728\u7ebf\u89c2\u770b\u4e2d\u592e\u4e03\u5957",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u4e2d\u592e\u4e03\u5957"
+        }
+    },
+    {
+        "text": "\u611f\u5192\u6ce8\u610f\u4ec0\u4e48\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u611f\u5192"
+        }
+    },
+    {
+        "text": "\u9ebb\u70e6\u60a8\u53ef\u4e0d\u53ef\u4ee5\u5e2e\u6211\u8c03\u989198.5\u626c\u5dde\u4eba\u6c11\u5e7f\u64ad\u7535\u53f0\u65b0\u95fb\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "98.5",
+            "name": "\u626c\u5dde\u4eba\u6c11\u5e7f\u64ad\u7535\u53f0\u65b0\u95fb\u53f0"
+        }
+    },
+    {
+        "text": "\u544a\u8bc9\u6211\u897f\u5b89\u7684\u4f4d\u7f6e",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_city": "\u897f\u5b89"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u77f3\u5316\u7684\u80a1\u7968\u662f\u6da8\u8fd8\u662f\u8dcc",
+        "domain": "stock",
+        "intent": "RISERATE_QUERY",
+        "slots": {
+            "name": "\u4e2d\u56fd\u77f3\u5316"
+        }
+    },
+    {
+        "text": "\u5f97\u4e86\u827e\u6ecb\u75c5\u600e\u4e48\u529e",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u827e\u6ecb\u75c5"
+        }
+    },
+    {
+        "text": "\u4e0b\u8f7d\u98de\u4fe1",
+        "domain": "app",
+        "intent": "DOWNLOAD",
+        "slots": {
+            "name": "\u98de\u4fe1"
+        }
+    },
+    {
+        "text": "\u8bf7\u5e2e\u6211\u8c03\u9891105.8\u5357\u4eac\u4eba\u6c11\u5e7f\u64ad\u7535\u53f0\u97f3\u4e50\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "105.8",
+            "name": "\u5357\u4eac\u4eba\u6c11\u5e7f\u64ad\u7535\u53f0\u97f3\u4e50\u53f0"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u8f6c\u53d1\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "FORWARD",
+        "slots": {}
+    },
+    {
+        "text": "\u505a\u9c7c\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9c7c"
+        }
+    },
+    {
+        "text": "\u6e56\u5317\u536b\u89c6\u4eca\u5929\u4e0b\u5348\u516d\u70b9\u4ee5\u540e\u5f00\u59cb\u64ad\u7537\u751f\u5973\u751f\u5411\u524d\u51b2",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929",
+            "datetime_time": "\u4e0b\u5348\u516d\u70b9\u4ee5\u540e",
+            "name": "\u7537\u751f\u5973\u751f\u5411\u524d\u51b2",
+            "tvchannel": "\u6e56\u5317\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u7b80\u5355\u7684\uff0c\u7cd6\u918b\u6392\u9aa8\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7cd6\u918b\u6392\u9aa8"
+        }
+    },
+    {
+        "text": "CCTV-12\u5957\u7684\u8282\u76ee\u5355",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "CCTV-12"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u67e5\u8be2\u4e00\u4e0b\u6e29\u5dde\u5230\u4e0a\u6d77\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e0a\u6d77",
+            "startLoc_city": "\u6e29\u5dde"
+        }
+    },
+    {
+        "text": "\u76ae\u51bb\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u76ae\u51bb"
+        }
+    },
+    {
+        "text": "\u64ad\u653e\u8001\u5a46\u6700\u5927\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u8001\u5a46\u6700\u5927"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u6628\u5929\u665a\u4e0a\u7684\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u6628\u5929",
+            "datetime_time": "\u665a\u4e0a"
+        }
+    },
+    {
+        "text": "\u7c73\u7c89\u8089\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7c73\u7c89\u8089"
+        }
+    },
+    {
+        "text": "\u628a\u5c0f\u65b0\u7684\u53f7\u7801\u53d1\u7ed9\u5f90\u4e91\u851a",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "\u5c0f\u65b0",
+            "receiver": "\u5f90\u4e91\u851a"
+        }
+    },
+    {
+        "text": "\u627e\u4e00\u9996\u6b4c\u53eb\u6591\u9a6c\u6591\u9a6c",
+        "domain": "music",
+        "intent": "SEARCH",
+        "slots": {
+            "song": "\u6591\u9a6c\u6591\u9a6c"
+        }
+    },
+    {
+        "text": "\u731c\u4e2a\u8c1c\u8bed\u54e6\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u641c\u7d22\u4e00\u4e0b\u4eca\u5929\u7684\u65b0\u95fb",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u5230\u90d1\u5dde\u706b\u8f66\u7ad9",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "\u90d1\u5dde",
+            "endLoc_poi": "\u706b\u8f66\u7ad9"
+        }
+    },
+    {
+        "text": "\u6559\u6211\u505a\u9992\u5934\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9992\u5934"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u641c\u72d0\u7f51\u9996\u9875",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u641c\u72d0\u7f51"
+        }
+    },
+    {
+        "text": "\u5200\u524a\u9762\u600e\u4e48\u6837\u505a\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u5200\u524a\u9762"
+        }
+    },
+    {
+        "text": "\u7384\u5e7b\u5c0f\u8bf4\u300a\u6b66\u52a8\u4e7e\u5764\u300b",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7384\u5e7b",
+            "name": "\u6b66\u52a8\u4e7e\u5764"
+        }
+    },
+    {
+        "text": "\u767d\u707c\u57fa\u5c3e\u867e\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u767d\u707c\u57fa\u5c3e\u867e"
+        }
+    },
+    {
+        "text": "\u5c0f\u519b\u513f\u7096\u571f\u8c46\u8be5\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7096\u571f\u8c46"
+        }
+    },
+    {
+        "text": "\u6dfb\u52a0\u4e00\u6761\u901a\u8baf\u5f55\u59d3\u540d\u845b\u52c7\u624b\u673a\u53f7\u7801189571642496",
+        "domain": "contacts",
+        "intent": "CREATE",
+        "slots": {
+            "code": "189571642496",
+            "name": "\u845b\u52c7"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u70e4\u997c\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u70e4\u997c"
+        }
+    },
+    {
+        "text": "\u6709\u6ca1\u6709\u5f90\u5dde\u5230\u6d1b\u9633\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6d1b\u9633",
+            "startLoc_city": "\u5f90\u5dde"
+        }
+    },
+    {
+        "text": "\u5f71\u89c6\u9891\u9053\u6709\u4ec0\u4e48\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "\u5f71\u89c6\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u6d4f\u89c8\u4e00\u4e0b\u767e\u5ea6",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u767e\u5ea6"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u53bb\u6210\u90fd\u7684\u822a\u73ed\u6709\u51e0\u8d9f",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6210\u90fd",
+            "startDate_dateOrig": "\u660e\u5929"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u770b\u73b0\u4ee3\u8a00\u60c5\u5c0f\u8bf4",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u73b0\u4ee3\u8a00\u60c5"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u5408\u4f19\u4eba",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e2d\u56fd\u5408\u4f19\u4eba"
+        }
+    },
+    {
+        "text": "\u6e56\u5317\u8346\u5dde\u5230\u9ec4\u77f3\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u9ec4\u77f3",
+            "startLoc_city": "\u8346\u5dde",
+            "startLoc_province": "\u6e56\u5317"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u8bb2\u4e00\u4e2a\u957f\u7bc7\u5c0f\u8bf4\u3002",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u94c1\u677f\u70e7\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u94c1\u677f\u70e7"
+        }
+    },
+    {
+        "text": "\u51fa\u53e3\u5728\u54ea\u91cc\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u51fa\u53e3\u5728\u54ea\u91cc",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u641c\u4e00\u641c\u4e09\u6bdb\u7684\u5c0f\u8bf4",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u4e09\u6bdb"
+        }
+    },
+    {
+        "text": "\u6211\u4e0d\u5728\u5bb6\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6211\u4e0d\u5728\u5bb6",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u67e5\u4e0b\u4e0a\u6d77\u5230\u592a\u539f\u7684\u673a\u7968",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u592a\u539f",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u6d59\u6c5f\u536b\u89c6\u4eca\u665a\u6709\u4e2d\u56fd\u597d\u58f0\u97f3\u5417\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "\u4eca\u665a",
+            "name": "\u4e2d\u56fd\u597d\u58f0\u97f3",
+            "tvchannel": "\u6d59\u6c5f\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u4e0d\u662f\u6211\u662f\u8bf4\u6211\u7ed9\u4f60\u731c\u4e2a\u8c1c\u8bed\u5427\uff01",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u4e00\u8d77\u542c\u542c\u65b0\u7586\u4eba\u6c11\u5e7f\u64ad\u7535\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u65b0\u7586\u4eba\u6c11\u5e7f\u64ad\u7535\u53f0"
+        }
+    },
+    {
+        "text": "\u53bb\u7f51\u4e0a\u641c\u7d22\u5170\u9675\u738b\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5170\u9675\u738b"
+        }
+    },
+    {
+        "text": "\u547c\u53eb\u7433\u7433",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u7433\u7433"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u4e0a\u6d77\u5230\u4e3d\u6c5f\u98de\u673a\u7968\u7684\u4ef7\u683c",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e3d\u6c5f",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u9ad8\u6e05\u592e\u89c6\u7efc\u827a",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u592e\u89c6\u7efc\u827a",
+            "resolution": "\u9ad8\u6e05"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u53bb\u5f90\u5dde\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5f90\u5dde",
+            "startDate_date": "\u660e\u5929"
+        }
+    },
+    {
+        "text": "\u73b0\u5728\u6211\u4e5f\u60f3\u4e0a\u65b0\u6d6a\u7f51\u4e86",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u65b0\u6d6a\u7f51"
+        }
+    },
+    {
+        "text": "\u653e\u6b4c\uff0c\u5929\u4eae\u4e86\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u5929\u4eae\u4e86"
+        }
+    },
+    {
+        "text": "\u67e5\u4e00\u4e0b\u90a3\u4e2a\u5357\u4eac\u5230\u6606\u660e\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6606\u660e",
+            "startLoc_city": "\u5357\u4eac"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u77e5\u9053\u76ae\u86cb\u7626\u8089\u7ca5\u662f\u600e\u4e48\u505a\u7684",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u76ae\u86cb\u7626\u8089\u7ca5"
+        }
+    },
+    {
+        "text": "\u4ece\u53f0\u5dde\u5230\u91d1\u534e\u7684\u6c7d\u8f66\u3002",
+        "domain": "bus",
+        "intent": "QUERY",
+        "slots": {
+            "Dest": "\u91d1\u534e",
+            "Src": "\u53f0\u5dde"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u5230\u79d1\u5927\u8baf\u98de\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u4e66\u5305\u7528\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e66\u5305",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u505a\u51b0\u6fc0\u51cc\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u51b0\u6fc0\u51cc"
+        }
+    },
+    {
+        "text": "\u4e0d\u84b8\u4e86\u725b\u8089\u4e38",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u725b\u8089\u4e38"
+        }
+    },
+    {
+        "text": "\u770b\u52a8\u7269\u5361\u901a",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "tag": "\u52a8\u7269\u5361\u901a"
+        }
+    },
+    {
+        "text": "\u9178\u83dc\u9c7c\u600e\u4e48\u505a\u554a",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9178\u83dc\u9c7c"
+        }
+    },
+    {
+        "text": "\u70b9\u4e00\u9996\u7231\u60c5\u4e70\u5356\u6765\u542c\u542c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u7231\u60c5\u4e70\u5356"
+        }
+    },
+    {
+        "text": "\u5408\u80a5\u5230\u6df1\u5733\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6df1\u5733",
+            "startLoc_city": "\u5408\u80a5"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u67e5\u4e00\u4e0b\u7cd6\u5c3f\u75c5\u5982\u4f55\u6cbb\u7597\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u7cd6\u5c3f\u75c5"
+        }
+    },
+    {
+        "text": "\u7528\u7535\u538b\u529b\u9505\u600e\u4e48\u84b8\u7c73\u7c89\u8089\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u84b8\u7c73\u7c89\u8089",
+            "utensil": "\u538b\u529b\u9505"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u767e\u5ea6\u554a",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u767e\u5ea6"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u5403\u6c49\u5821\u5305\u7684\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6211\u60f3\u5403\u6c49\u5821\u5305",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u6b67\u8def\u5144\u5f1f",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6b67\u8def\u5144\u5f1f"
+        }
+    },
+    {
+        "text": "\u770b\u4e2d\u56fd\u597d\u58f0\u97f3",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e2d\u56fd\u597d\u58f0\u97f3"
+        }
+    },
+    {
+        "text": "\u53ef\u4e50\u9e21\u7fc5\u600e\u4e48\u505a\u5440\u665a\u70b9\u544a\u8bc9\u6211\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u53ef\u4e50\u9e21\u7fc5"
+        }
+    },
+    {
+        "text": "\u7ed9\u5f90\u8336\u53f6\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5f90\u8336\u53f6"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u627e\u5230\u53bb\u5b89\u5fbd\u9ec4\u5c71\u7684\u8def",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u9ec4\u5c71",
+            "endLoc_province": "\u5b89\u5fbd"
+        }
+    },
+    {
+        "text": "\u653e\u9996\u6b4c\u7ed9\u6211\u542c\u5427",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u641c\u7d22\u4e03\u4e50\u5f69\u7684\u516c\u793a\u53f7\u7801",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "\u4e03\u4e50\u5f69"
+        }
+    },
+    {
+        "text": "15\u53f7\u7684\u6211\u613f\u610f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "15\u53f7",
+            "name": "\u6211\u613f\u610f"
+        }
+    },
+    {
+        "text": "\u6211\u8bf4\u5403\u98de\u87f9\uff0c\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u98de\u87f9"
+        }
+    },
+    {
+        "text": "\u53ef\u4ee5\u5e2e\u4e70\u706b\u8f66\u7968\u5417",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u6e38\u620f\u7ade\u6280\u9891\u9053",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6e38\u620f\u7ade\u6280\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u65b0\u534e\u7f51\u6253\u5f00",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u65b0\u534e\u7f51"
+        }
+    },
+    {
+        "text": "\u53a6\u95e8\u5230\u8d63\u5dde\u7684\u706b\u8f66\u7968",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u8d63\u5dde",
+            "startLoc_city": "\u53a6\u95e8"
+        }
+    },
+    {
+        "text": "\u641c\u738b\u83f2\u6f14\u5531\u4f1a",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "\u738b\u83f2",
+            "tag": "\u6f14\u5531\u4f1a"
+        }
+    },
+    {
+        "text": "\u4ece\u65e0\u9521\u5e02\u5230\u897f\u5b89\u5e02\u7684\u6c7d\u8f66\u3002",
+        "domain": "bus",
+        "intent": "QUERY",
+        "slots": {
+            "Dest": "\u897f\u5b89\u5e02",
+            "Src": "\u65e0\u9521\u5e02"
+        }
+    },
+    {
+        "text": "\u6c5f\u82cf\u515a\u6821\u4e8c\u5957",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6c5f\u82cf\u515a\u6821\u4e8c\u5957"
+        }
+    },
+    {
+        "text": "\u547c\u53eba \u4e8c\u5c0f\u59d0",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u4e8c\u5c0f\u59d0"
+        }
+    },
+    {
+        "text": "\u4f60\u7ed9\u6211\u80cc\u4e00\u9996\u767d\u5c45\u6613\u7684\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u767d\u5c45\u6613"
+        }
+    },
+    {
+        "text": "\u4eca\u665a\u770b\u4ec0\u4e48\u7535\u5f71\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "datetime_time": "\u4eca\u665a"
+        }
+    },
+    {
+        "text": "\u67e5\u770b\u738b\u8001\u5e08\u7684\u53f7\u7801",
+        "domain": "telephone",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u738b\u8001\u5e08"
+        }
+    },
+    {
+        "text": "\u4f60\u5e2e\u6211\u6253\u5f00\u7f51\u7ad9",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {}
+    },
+    {
+        "text": "\u53d1\u4fe1\u606f\u7ed9\u5065\u7f8e",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5065\u7f8e"
+        }
+    },
+    {
+        "text": "\u80cc\u8bf5\u60af\u519c\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u60af\u519c"
+        }
+    },
+    {
+        "text": "\u5996\u7cbe\u7684\u5c3e\u5df4",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5996\u7cbe\u7684\u5c3e\u5df4"
+        }
+    },
+    {
+        "text": "\u54ea\u4e2a\u53f0\u5728\u653e\u7504\u5b1b",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7504\u5b1b"
+        }
+    },
+    {
+        "text": "\u5317\u4eac\u9752\u5e74\u9891\u9053\u8c01\u5728\u8bf4",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u8c01\u5728\u8bf4",
+            "tvchannel": "\u5317\u4eac\u9752\u5e74\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u770b\u5f53\u524d\u76f4\u64ad\u7684\u6bd4\u8d5b",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u6bd4\u8d5b"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u4e0b\u5317\u4eac\u9996\u521b\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5317\u4eac\u9996\u521b"
+        }
+    },
+    {
+        "text": "\u8bf7\u95ee\u9c7c\u5757\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9c7c\u5757"
+        }
+    },
+    {
+        "text": "\u6211\u628a\u76f8\u673a\u6253\u5f00",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u76f8\u673a"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u716e\u9762\u624d\u597d\u5403\u5462\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u716e\u9762"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u5927\u529b\u4f20\u5a92\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5927\u529b\u4f20\u5a92"
+        }
+    },
+    {
+        "text": "\u7ed9\u66f9\u5e7f\u4e49\u6253\u7535\u8bdd",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u66f9\u5e7f\u4e49"
+        }
+    },
+    {
+        "text": "\u7535\u5f71\u5341\u4e8c\u751f\u8096",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "name": "\u5341\u4e8c\u751f\u8096"
+        }
+    },
+    {
+        "text": "\u534e\u6676\u5c0f\u5b66\u5728\u54ea\u91cc",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "\u534e\u6676\u5c0f\u5b66"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u6253\u5f00\u767e\u5ea6\u7f51",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u767e\u5ea6"
+        }
+    },
+    {
+        "text": "\u5364\u732a\u8e44\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u5364\u732a\u8e44"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u5171\u4ea7\u4e3b\u4e49\u7684\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e2d\u56fd\u5171\u4ea7\u4e3b\u4e49",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u641c\u7d22\u5510\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u4e0d\u8fa3\uff0c\u731c\u8c1c\u8bed\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u9644\u8fd1\u7535\u5f71\u9662\u3002",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u7ed9\u4e07\u7ed3\u6253\u7535\u8bdd",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u4e07\u7ed3"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u8ba2\u4e00\u5f20\u676d\u5dde\u5230\u4e0a\u6d77\u7684\u673a\u7968",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e0a\u6d77",
+            "startLoc_city": "\u676d\u5dde"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u641e\u5b9a\u5cb3\u7236\u5927\u4eba\u7535\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "name": "\u641e\u5b9a\u5cb3\u7236\u5927\u4eba"
+        }
+    },
+    {
+        "text": "\u9493\u9c7c\u5c9b\u65b0\u95fb",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "keyword": "\u9493\u9c7c\u5c9b"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u5efa\u8bbe\u94f6\u884c\u7684\u884c\u60c5",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5efa\u8bbe\u94f6\u884c"
+        }
+    },
+    {
+        "text": "\u53d1\u77ed\u4fe1\u7ed9\u5218\u6587\u8bf4\u660e\u5929\u4e0b\u5348\u4e94\u70b9\u6709\u805a\u4f1a",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u660e\u5929\u4e0b\u5348\u4e94\u70b9\u6709\u805a\u4f1a",
+            "name": "\u5218\u6587"
+        }
+    },
+    {
+        "text": "\u7cd6\u918b\u85d5\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7cd6\u918b\u85d5"
+        }
+    },
+    {
+        "text": "\u554a\uff0c\u731c\u4e2a\u8c1c\u8bed\u7ed9\u6211\u542c\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u5ddd\u5d0e\u73ab\u7470\u7684\u5236\u4f5c\u65b9\u6cd5",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u73ab\u7470"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u4e0aqq",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "qq"
+        }
+    },
+    {
+        "text": "\u7ed9\u5e84\u5c0f\u96f7\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5e84\u5c0f\u96f7"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u627e\u5230\u5fae\u4fe1",
+        "domain": "app",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5fae\u4fe1"
+        }
+    },
+    {
+        "text": "\u67e5\u67e5\u79d1\u5927\u8baf\u98de\u5728\u54ea\u91cc",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u6253\u8c46\u6d46\u5269\u4e0b\u7684\u8c46\u6e23\u600e\u6837\u505a\uff0c\u597d\u5403\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u8c46\u6e23"
+        }
+    },
+    {
+        "text": "\u6253\u7535\u8bdd\u7ed9\u4f55\u5065",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u4f55\u5065"
+        }
+    },
+    {
+        "text": "\u9759\u8109\u66f2\u5f20\u600e\u4e48\u6cbb\u7597\uff1f\u54e6\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u9759\u8109\u66f2\u5f20"
+        }
+    },
+    {
+        "text": "\u80a9\u5173\u8282\u5468\u56f4\u708e",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u80a9\u5173\u8282\u5468\u56f4\u708e"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u671f\u5f85\u8fd9\u9996\u6b4c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u671f\u5f85"
+        }
+    },
+    {
+        "text": "\u547c\u53eb\u665a\u6b32\u5f3a",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u665a\u6b32\u5f3a"
+        }
+    },
+    {
+        "text": "\u4e1c\u65b9\u536b\u89c6\u9ad8\u6e05\u9891\u9053",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u4e1c\u65b9\u536b\u89c6",
+            "resolution": "\u9ad8\u6e05"
+        }
+    },
+    {
+        "text": "\u51b0\u7cd6\u96ea\u68a8",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u51b0\u7cd6\u96ea\u68a8"
+        }
+    },
+    {
+        "text": "\u51b0\u6fc0\u51cc\u600e\u4e48\u505a\u54e6",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u51b0\u6fc0\u51cc"
+        }
+    },
+    {
+        "text": "\u6700\u8fd1\u4e0b\u5348\u6709\u4ec0\u4e48\u7535\u5f71\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "datetime_time": "\u4e0b\u5348"
+        }
+    },
+    {
+        "text": "\u80cc\u9996\u5510\u8bd7\u6765\u542c\u554a\uff01",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u5e7f\u897f\u7535\u89c6\u53f0\u73b0\u5728\u64ad\u653e\u4ec0\u4e48\u8282\u76ee\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "\u73b0\u5728",
+            "tvchannel": "\u5e7f\u897f\u7535\u89c6\u53f0"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u67e5\u770b\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "LAUNCH",
+        "slots": {}
+    },
+    {
+        "text": "\u7532\u578b\u809d\u708e\u3002",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u7532\u578b\u809d\u708e"
+        }
+    },
+    {
+        "text": "\u7ed9\u5f20\u5029\u5029\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5f20\u5029\u5029"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u4eca\u5929\u4e0a\u6d77\u5230\u6210\u90fd\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6210\u90fd",
+            "startDate_date": "\u4eca\u5929",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u641c\u7d2215\u90095\u7684\u53f7\u7801\u4fe1\u606f",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "15\u90095"
+        }
+    },
+    {
+        "text": "\u66ff\u6211\u56de\u590d\u8fd9\u5c01\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {}
+    },
+    {
+        "text": "\u6709\u4f60\u624d\u5e78\u798f",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6709\u4f60\u624d\u5e78\u798f"
+        }
+    },
+    {
+        "text": "\u5c11\u513f\u8282\u76ee\u4e2d\u592e\u5c11\u513f\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u5c11\u513f",
+            "tvchannel": "\u4e2d\u592e\u5c11\u513f\u8282\u76ee"
+        }
+    },
+    {
+        "text": "\u8bf7\u6253\u5f00\u4eba\u4eba\u7f51",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u4eba\u4eba\u7f51"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u4e03\u8a00\u7edd\u53e5\u3002",
+        "domain": "poetry",
+        "intent": "DEFAULT",
+        "slots": {}
+    },
+    {
+        "text": "\u9e3d\u5b50\uff0c\u600e\u4e48\u505a\u6700\u597d\u5403\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9e3d\u5b50"
+        }
+    },
+    {
+        "text": "\u7ea2\u70e7\u9c7c\u5757\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u70e7\u9c7c\u5757"
+        }
+    },
+    {
+        "text": "\u7ed9\u4e8e\u6d77\u6d0b\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u4e8e\u6d77\u6d0b"
+        }
+    },
+    {
+        "text": "\u6253\u5f00uc\u6d4f\u89c8\u5668",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "uc\u6d4f\u89c8\u5668"
+        }
+    },
+    {
+        "text": "\u7ea2\u70e7\u72ee\u5b50\u5934\u600e\u4e48\u505a",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u70e7\u72ee\u5b50\u5934"
+        }
+    },
+    {
+        "text": "\u54e5\u731c\u4e2a\u8c1c\u8bed\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u5bab\u7206\u9e21\u4e01\u7684\u83dc\u8c31\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u5bab\u7206\u9e21\u4e01"
+        }
+    },
+    {
+        "text": "\u4f60\u8bf4\u8c1c\u8bed\u7ed9\u6211\u731c\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u6625\u5929\u91cc\u8fd9\u9996\u6b4c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u6625\u5929\u91cc"
+        }
+    },
+    {
+        "text": "\u53e4\u5893\u4e3d\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u53e4\u5893\u4e3d\u5f71"
+        }
+    },
+    {
+        "text": "\u771f\u8fbe\u6797\u4e1a\u7684\u80a1\u7968\u600e\u4e48\u6837",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u771f\u8fbe\u6797\u4e1a"
+        }
+    },
+    {
+        "text": "\u6709\u6cb9\u70b8\u9171\u6599\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u6cb9\u70b8\u9171\u6599"
+        }
+    },
+    {
+        "text": "\u82e6\u74dc\u8981\u600e\u4e48\u505a\u6bd4\u8f83\u597d\u5403",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u82e6\u74dc"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u5468\u661f\u9a70\u7684\u559c\u5267\u7535\u5f71\u559c\u5267\u4e4b\u738b",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "\u5468\u661f\u9a70",
+            "category": "\u7535\u5f71",
+            "name": "\u559c\u5267\u4e4b\u738b",
+            "tag": "\u559c\u5267"
+        }
+    },
+    {
+        "text": "\u610f\u5927\u5229\u9762\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u610f\u5927\u5229\u9762"
+        }
+    },
+    {
+        "text": "\u64ad\u653e2005\u5e74\u52b1\u5fd7\u52a8\u6f2b",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u52a8\u6f2b",
+            "datetime_date": "2005\u5e74",
+            "tag": "\u52b1\u5fd7"
+        }
+    },
+    {
+        "text": "\u96f6\u4e03\u64ad\u62a5\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u9752\u9c7c\u505a\u6cd5\u89c6\u9891",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9752\u9c7c"
+        }
+    },
+    {
+        "text": "\u628a\u674e\u6587\u9f0e\u7684\u53f7\u7801\u53d1\u7ed9\u8c22\u670d\u5168",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "\u674e\u6587\u9f0e",
+            "receiver": "\u8c22\u670d\u5168"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u770b\u9b54\u6cd5\u795e\u8bdd\u5c0f\u8bf4",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u9b54\u6cd5\u795e\u8bdd"
+        }
+    },
+    {
+        "text": "\u7535\u89c6\u56de\u770b\u5b89\u5fbd\u536b\u89c6",
+        "domain": "epg",
+        "intent": "LOOK_BACK",
+        "slots": {
+            "tvchannel": "\u5b89\u5fbd\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u8fa3\u9178\u83dc\u9c7c\u600e\u4e48\u505a\u4e86\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u8fa3\u9178\u83dc",
+            "ingredient": "\u9c7c"
+        }
+    },
+    {
+        "text": "\u603b\u8ba1\u4eca\u5929\u7684\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u627e\u4e0b\u6700\u8fd1\u6700\u70ed\u64ad\u7684\u7535\u5f71\u3002",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u4e5d\u6708\u4e8c\u5341\u516d\u53f7\u4ece\u6df1\u5733\u5230\u5b81\u6ce2\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5b81\u6ce2",
+            "startDate_date": "\u4e5d\u6708\u4e8c\u5341\u516d\u53f7",
+            "startLoc_city": "\u6df1\u5733"
+        }
+    },
+    {
+        "text": "2012\u5e74\u7f8e\u56fd\u516c\u544a\u724c\u97f3\u4e50\u5927\u5956\u9881\u5956\u793c",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "2012\u5e74",
+            "name": "\u7f8e\u56fd\u516c\u544a\u724c\u97f3\u4e50\u5927\u5956\u9881\u5956\u793c"
+        }
+    },
+    {
+        "text": "\u4f60\u80cc\u9996\u5510\u8bd7\u7ed9\u6211\u542c\u542c\u554a",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u6253\u5f00\u7535\u8bdd\u672c",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u7535\u8bdd\u672c"
+        }
+    },
+    {
+        "text": "\u770b\u770b\u4eca\u5929\u6709\u4ec0\u4e48\u597d\u770b\u7684\u8282\u76ee\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8282\u76ee",
+            "datetime_date": "\u4eca\u5929"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u5f20\u827a\u8c0b\u5bfc\u6f14\u7684\u7535\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "artist": "\u5f20\u827a\u8c0b",
+            "artistRole": "\u5bfc\u6f14",
+            "category": "\u7535\u5f71"
+        }
+    },
+    {
+        "text": "\u4ece\u91cd\u5e86\u5230\u6b66\u6c49\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6b66\u6c49",
+            "startLoc_city": "\u91cd\u5e86"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u4e1c\u5434\u8bc1\u5238\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e1c\u5434\u8bc1\u5238"
+        }
+    },
+    {
+        "text": "\u4e2d\u8d85\u7684\u6bd4\u8d5b\u65f6\u95f4\u3002",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u4e2d\u8d85"
+        }
+    },
+    {
+        "text": "\u54e6\uff0c\u542c\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u4e2d\u56fd\u6559\u80b2\u7535\u89c6\u53f0\u4e09\u53f0",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u4e2d\u56fd\u6559\u80b2\u7535\u89c6\u53f0\u4e09\u53f0"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u7092\u756a\u8304\u7092\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7092\u756a\u8304"
+        }
+    },
+    {
+        "text": "\u6253\u5f00qq\u767b\u9646\u5230\u804a\u5929\u6a21\u5f0f",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "qq"
+        }
+    },
+    {
+        "text": "\u9e21\u86cb\u600e\u4e48\u7092\u6700\u597d\u5403\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9e21\u86cb"
+        }
+    },
+    {
+        "text": "\u817f\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u817f",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u5565\u5a46\u8c46\u8150\u7684\u5236\u4f5c\u65b9\u6cd5",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u8c46\u8150"
+        }
+    },
+    {
+        "text": "\u8bf7\u5e2e\u6211\u8c03\u989190.2\u8fde\u4e91\u6e2f\u7ecf\u6d4e\u5e7f\u64ad\u7535\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "90.2",
+            "name": "\u8fde\u4e91\u6e2f\u7ecf\u6d4e\u5e7f\u64ad\u7535\u53f0"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u6052\u5149\u7535\u5f71\u9662\u5373\u5c06\u4e0a\u6620\u7684\u7535\u5f71",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {
+            "theatre": "\u6052\u5149\u7535\u5f71\u9662"
+        }
+    },
+    {
+        "text": "\u5b57\u8c1c\u4f60\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u5b57\u8c1c"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u770b\u897f\u6e38\u8bb0\u554a",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u897f\u6e38\u8bb0"
+        }
+    },
+    {
+        "text": "\u6c5f\u82cf\u6559\u80b2\u53f0",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6c5f\u82cf\u6559\u80b2\u53f0"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u4e00\u4e0b\u51e4\u51f0\u7f51",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u51e4\u51f0\u7f51"
+        }
+    },
+    {
+        "text": "\u5c0f\u9e21\u7096\u8611\u83c7\u7684\u505a\u6cd5\u7238",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u5c0f\u9e21\u7096\u8611\u83c7"
+        }
+    },
+    {
+        "text": "\u67e5\u4e00\u4e0b\u660e\u5929\u665a\u4e0a17\u70b930\u5206\u4ece\u4e0a\u6d77\u98de\u5f80\u73e0\u6d77\u4e09\u7076\u673a\u573a\u7684\u98de\u673a",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u73e0\u6d77",
+            "endLoc_poi": "\u4e09\u7076\u673a\u573a",
+            "startDate_date": "\u660e\u5929",
+            "startDate_time": "17\u70b930\u5206",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u9ad8\u5c14\u592b\u7f51\u7403\u9891\u9053",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u9ad8\u5c14\u592b\u7f51\u7403\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u54b1\u4eec\u7ed3\u5a5a\u5427\u4ec0\u4e48\u65f6\u5019\u64ad\u51fa",
+        "domain": "cinemas",
+        "intent": "DATE_QUERY",
+        "slots": {
+            "name": "\u54b1\u4eec\u7ed3\u5a5a\u5427"
+        }
+    },
+    {
+        "text": "\u7b2c50000\u671f\u798f\u5f69\u53cc\u8272\u7403",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "absIssue": "50000",
+            "category": "\u798f\u5f69",
+            "name": "\u53cc\u8272\u7403"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u674e\u767d\u7684\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u70ed\u8840\u52a8\u6f2b",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u52a8\u6f2b",
+            "tag": "\u70ed\u8840"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u8db3\u7403\u7c7b\u65b0\u95fb",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "category": "\u8db3\u7403"
+        }
+    },
+    {
+        "text": "\u6c7d\u8f66\u82f1\u8bed\u600e\u4e48\u8bb2",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6c7d\u8f66",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u5168\u90e8\u56de\u590d",
+        "domain": "email",
+        "intent": "REPLAY_ALL",
+        "slots": {}
+    },
+    {
+        "text": "\u6253\u7535\u8bdd\u7ed9\u738b\u5b89\u5a1c",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u738b\u5b89\u5a1c"
+        }
+    },
+    {
+        "text": "\u65b0\u624e\u5e08\u59b9",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u65b0\u624e\u5e08\u59b9"
+        }
+    },
+    {
+        "text": "\u4ece\u89c2\u97f3\u6865\u5230\u91cd\u5e86\u5e02\u56fe\u4e66\u9986\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u91cd\u5e86\u5e02\u56fe\u4e66\u9986",
+            "startLoc_poi": "\u89c2\u97f3\u6865"
+        }
+    },
+    {
+        "text": "\u64ad\u653e\u4e00\u9996\u5012\u5e26\u6765\u542c\u4e00\u542c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u5012\u5e26"
+        }
+    },
+    {
+        "text": "\u6765\u9996\u5feb\u4e50\u5d07\u62dc",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u5feb\u4e50\u5d07\u62dc"
+        }
+    },
+    {
+        "text": "\u8bf7\u7ed9\u6211\u6253\u4e00\u4e2a\u8c1c\u8bed\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u67e5\u627e\u6821\u56ed\u5c0f\u8bf4\u6c99\u6f0f\u7b2c\u4e8c\u90e8",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u6821\u56ed",
+            "name": "\u6c99\u6f0f"
+        }
+    },
+    {
+        "text": "\u4eba\u6b7b\u539f\u77e5\u4e07\u4e8b\u7a7a\u4e0b\u4e00\u53e5\u662f\u4ec0\u4e48\uff1f",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u4eba\u6b7b\u539f\u77e5\u4e07\u4e8b\u7a7a",
+            "queryField": "\u4e0b\u4e00\u53e5"
+        }
+    },
+    {
+        "text": "\u8bf7\u5e2e\u6211\u6253\u5f00\u7f51\u7ad9",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {}
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u4e2d\u592e\u516d\u53f0\u7684\u7535\u5f71\u3002",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "tvchannel": "\u4e2d\u592e\u516d\u53f0"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u6fee\u8010\u80a1\u4efd\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6fee\u8010\u80a1\u4efd"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u5b89\u5fbd\u4ea4\u901a\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u5b89\u5fbd\u4ea4\u901a\u53f0"
+        }
+    },
+    {
+        "text": "\u5317\u4eac\u70e4\u9e2d\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u5317\u4eac\u70e4\u9e2d"
+        }
+    },
+    {
+        "text": "\u5230\u592a\u6e56\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_area": "\u592a\u6e56"
+        }
+    },
+    {
+        "text": "\u600e\u6837\u505a\u9762\u7b4b",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9762\u7b4b"
+        }
+    },
+    {
+        "text": "\u6700\u8fd1\u70ed\u95e8\u7684\u7535\u5f71\u3002",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u8fdb\u5165\u4e09w\u70b9\u767e\u5ea6\u70b9com",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u4e09w\u70b9\u767e\u5ea6\u70b9com"
+        }
+    },
+    {
+        "text": "\u554a\uff0c\u9752\u6912\u7092\u86cb\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9752\u6912\u7092\u86cb"
+        }
+    },
+    {
+        "text": "\u6d59\u6c5f\u7535\u89c6\u53f0",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6d59\u6c5f\u7535\u89c6\u53f0"
+        }
+    },
+    {
+        "text": "\u798f\u5c14\u6469\u63a2\u6848\u6025\u7ffb\u8bd1\u6210\u82f1\u6587",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u798f\u5c14\u6469\u63a2\u6848\u6025",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u628a\u5510\u7389\u660e\u7684\u624b\u673a\u53f7\u7801\u53d1\u7ed9\u674e\u5eb7",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "category": "\u624b\u673a",
+            "name": "\u5510\u7389\u660e",
+            "receiver": "\u674e\u5eb7"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u4f1a\u8bf4\u8bdd\u7684\u6c64\u59c6\u732b",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u4f1a\u8bf4\u8bdd\u7684\u6c64\u59c6\u732b"
+        }
+    },
+    {
+        "text": "\u798f\u5bff\u9c7c\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u798f\u5bff\u9c7c"
+        }
+    },
+    {
+        "text": "\u9e21\u86cb\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9e21\u86cb"
+        }
+    },
+    {
+        "text": "\u4ece\u6b66\u6c49\u5230\u547c\u548c\u6d69\u7279",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "\u547c\u548c\u6d69\u7279",
+            "startLoc_city": "\u6b66\u6c49"
+        }
+    },
+    {
+        "text": "\u516c\u4ea4\u67e5\u8be2",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u516c\u4ea4\u67e5\u8be2"
+        }
+    },
+    {
+        "text": "\u6253\u4e00\u4e2a\u8c1c\u8bed\u7537\u4eba\u7684\u817f\u6b8b\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u8f9b\u5937\u575e\u539f\u6765\u4f60\u8fd8\u5728\u8fd9\u91cc\u5c0f\u8bf4",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u8f9b\u5937\u575e",
+            "name": "\u539f\u6765\u4f60\u8fd8\u5728\u8fd9\u91cc"
+        }
+    },
+    {
+        "text": "\u7126\u70b9\u8bbf\u8c08\u4ec0\u4e48\u65f6\u5019\u64ad",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7126\u70b9\u8bbf\u8c08"
+        }
+    },
+    {
+        "text": "\u4ece\u5e7f\u5dde\u5230\u8d35\u9633\u5e02\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u8d35\u9633",
+            "startLoc_city": "\u5e7f\u5dde"
+        }
+    },
+    {
+        "text": "\u9178\u83dc\u7c89\u6761\u8089\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9178\u83dc\u7c89\u6761",
+            "ingredient": "\u8089"
+        }
+    },
+    {
+        "text": "\u67e5\u4e00\u4e0b\u6d4e\u5357\u5230\u6210\u90fd\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6210\u90fd",
+            "startLoc_city": "\u6d4e\u5357"
+        }
+    },
+    {
+        "text": "\u53bb\u6e58\u6c5f",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u6e58\u6c5f"
+        }
+    },
+    {
+        "text": "\u7096\u8089",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7096\u8089"
+        }
+    },
+    {
+        "text": "\u4f60\u7ed9\u6211\u5ff5\u4e00\u9996\u674e\u767d\u7684\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u9762\u5305\u7684\u914d\u65b9\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9762\u5305"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u9996\u5510\u8bd7\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u56de\u9505\u8089\u600e\u4e48\u505a\u554a",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u56de\u9505\u8089"
+        }
+    },
+    {
+        "text": "\u8bfb\u9996\u5510\u8bd7",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u67e5\u4e00\u4e0b\u4ece\u676d\u5dde\u5230\u4e0a\u6d77\u9ad8\u94c1\u65f6\u523b\u8868",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u9ad8\u94c1",
+            "endLoc_city": "\u4e0a\u6d77",
+            "startLoc_city": "\u676d\u5dde"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u4f24\u611f\u6b4c\u66f2",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "category": "\u4f24\u611f"
+        }
+    },
+    {
+        "text": "\u70b9\u64ad\u7231\u60c5\u4e70\u5356",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u7231\u60c5\u4e70\u5356"
+        }
+    },
+    {
+        "text": "\u65b0\u7586\u5927\u76d8\u9e21\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u65b0\u7586\u5927\u76d8\u9e21"
+        }
+    },
+    {
+        "text": "\u79d1\u5927\u8baf\u98de\u5728\u54ea\u91cc\u5440",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {
+            "location_poi": "\u79d1\u5927\u8baf\u98de"
+        }
+    },
+    {
+        "text": "\u4e70\u4e1c\u897f\u7ffb\u8bd1\u6210\u82f1\u8bed",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e70\u4e1c\u897f",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u4ee3\u7801000800\u7684\u80a1\u7968\u6da8\u5e45\u662f\u591a\u5c11",
+        "domain": "stock",
+        "intent": "RISERATE_QUERY",
+        "slots": {
+            "code": "000800"
+        }
+    },
+    {
+        "text": "\u53d1\u77ed\u8baf\u7ed9\u66f9\u5efa\u9633",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u66f9\u5efa\u9633"
+        }
+    },
+    {
+        "text": "\u5230\u6b66\u6c49\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6b66\u6c49"
+        }
+    },
+    {
+        "text": "\u8bf7\u5e2e\u6211\u8c03\u989189.6\u6b66\u6c49\u4ea4\u901a\u5e7f\u64ad\u7535\u53f0",
+        "domain": "radio",
+        "intent": "LAUNCH",
+        "slots": {
+            "code": "89.6",
+            "name": "\u6b66\u6c49\u4ea4\u901a\u5e7f\u64ad\u7535\u53f0"
+        }
+    },
+    {
+        "text": "\u80d6\u9c7c\u5934\u600e\u4e48\u70e7\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u80d6\u9c7c\u5934"
+        }
+    },
+    {
+        "text": "\u6c5f\u82cf\u821c\u5929\u961f\u8fd9\u4e2a\u661f\u671f\u7684\u6bd4\u8d5b\u65f6\u95f4\u7ed9\u6211\u627e\u51fa\u6765",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u8fd9\u4e2a\u661f\u671f",
+            "name": "\u6c5f\u82cf\u821c\u5929"
+        }
+    },
+    {
+        "text": "\u64ad\u65b0\u95fb\uff0c\u6e56\u5357\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "location_province": "\u6e56\u5357"
+        }
+    },
+    {
+        "text": "\u7ea2\u67a3\u9e21\u6c64\u600e\u4e48\u7172\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u67a3\u9e21\u6c64"
+        }
+    },
+    {
+        "text": "\u7ed9\u5c0f\u9c7c\u6253\u7535\u8bdd",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u5c0f\u9c7c"
+        }
+    },
+    {
+        "text": "\u505a\u82f9\u679c\u9ea6\u7247\u7ca5\u9700\u8981\u54ea\u5199\u6750\u6599\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u82f9\u679c\u9ea6\u7247\u7ca5"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u505a\u756a\u8304\u7092\u86cb\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u756a\u8304\u7092\u86cb"
+        }
+    },
+    {
+        "text": "\u4e0a\u4e00\u671f15\u90095\u7684\u4e2d\u5956\u53f7\u7801\u662f\u591a\u5c11\uff1f",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "15\u90095",
+            "relIssue": "\u4e0a\u4e00\u671f"
+        }
+    },
+    {
+        "text": "\u5510\u8bd7\u767b\u9ad8\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510",
+            "name": "\u767b\u9ad8"
+        }
+    },
+    {
+        "text": "\u4e2d\u8d85\u8d5b\u4e8b\u9884\u544a\uff0c\u554a\uff01",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u4e2d\u8d85",
+            "type": "\u9884\u544a"
+        }
+    },
+    {
+        "text": "\u770b\u4e00\u4e0b\u4eca\u5929\u65e9\u4e0a\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "datetime_date": "\u4eca\u5929",
+            "datetime_time": "\u65e9\u4e0a"
+        }
+    },
+    {
+        "text": "\u80c3\u708e\u600e\u4e48\u6cbb\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u80c3\u708e"
+        }
+    },
+    {
+        "text": "\u770b\u4e61\u6751\u7231\u60c5",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e61\u6751\u7231\u60c5"
+        }
+    },
+    {
+        "text": "\u80cc\u4e00\u9996\uff0c\u7eb3\u5170\u5bb9\u82e5\u7684\u8bcd\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u7eb3\u5170\u5bb9\u82e5"
+        }
+    },
+    {
+        "text": "\u5982\u4f55\u7092\u82b1\u751f\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7092\u82b1\u751f"
+        }
+    },
+    {
+        "text": "\u5173\u4e8e\u9493\u9c7c\u5c9b\u7684\u65b0\u95fb\u8fdb\u5c55",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {
+            "keyword": "\u9493\u9c7c\u5c9b"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u5e7f\u5dde\u5230\u5317\u4eac\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5317\u4eac",
+            "startDate_date": "\u660e\u5929",
+            "startLoc_city": "\u5e7f\u5dde"
+        }
+    },
+    {
+        "text": "\u5c0f\u5175\u5f20\u560e\u7535\u5f71\u513f",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "name": "\u5c0f\u5175\u5f20\u560e"
+        }
+    },
+    {
+        "text": "\u571f\u8c46\u70e7\u8089\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u571f\u8c46\u70e7\u8089"
+        }
+    },
+    {
+        "text": "\u53d1\u4fe1\u606f\u7ed9\u8001\u5a46\u8bf4\u6211\u4e0d\u56de\u5bb6\u5403\u996d\u4e86",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u6211\u4e0d\u56de\u5bb6\u5403\u996d\u4e86",
+            "name": "\u8001\u5a46"
+        }
+    },
+    {
+        "text": "\u4e0a\u6d77\u80fd\u6e90\u8fd9\u652f\u80a1\u7968\u600e\u4e48\u6837",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e0a\u6d77\u80fd\u6e90"
+        }
+    },
+    {
+        "text": "\u849c\u82d4\u7684\u505a\u6cd5",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u849c\u82d4"
+        }
+    },
+    {
+        "text": "\u7ffb\u8bd1\u725b",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u725b"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u505a\u6c34\u716e\u9c7c\u5e97\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u6c34\u716e\u9c7c"
+        }
+    },
+    {
+        "text": "\u8bf7\u67e5\u8be2\u4e00\u4e0b\u6df1\u5733\u98de\u5f80\u4e0a\u6d77\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e0a\u6d77",
+            "startLoc_city": "\u6df1\u5733"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u4e0d\u53ef\u4ee5\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u4e0d\u53ef\u4ee5"
+        }
+    },
+    {
+        "text": "\u53bb\u6c38\u5eb7\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_area": "\u6c38\u5eb7"
+        }
+    },
+    {
+        "text": "\u65b0\u95fb\u89e3\u7801",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u65b0\u95fb\u89e3\u7801"
+        }
+    },
+    {
+        "text": "\u767e\u5ea6\u6d4f\u89c8\u5668\u6253\u5f00",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u767e\u5ea6\u6d4f\u89c8\u5668"
+        }
+    },
+    {
+        "text": "\u4e16\u754c\u5730\u7406\u7684\u8282\u76ee\u5355",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "\u4e16\u754c\u5730\u7406"
+        }
+    },
+    {
+        "text": "\u7ea2\u70e7\u8089\u600e\u4e48\u505a\uff1f\u55ef\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u70e7\u8089"
+        }
+    },
+    {
+        "text": "\u5b89\u9633\u5230\u90d1\u5dde\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u90d1\u5dde",
+            "startLoc_city": "\u5b89\u9633"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u968f\u4fbf\u6765\u51e0\u9996\u6b4c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u7ed9\u674e\u5360\u5cf0\u53d1\u77ed\u4fe1\u4f60\u73b0\u5728\u5728\u505a\u4ec0\u4e48",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u4f60\u73b0\u5728\u5728\u505a\u4ec0\u4e48",
+            "name": "\u674e\u5360\u5cf0"
+        }
+    },
+    {
+        "text": "\u4e0b\u4e2a\u661f\u671f\u4e2d\u56fd\u8db3\u7403\u8d85\u7ea7\u8054\u8d5b\u6dd8\u6c70\u8d5b\u7684\u8d5b\u4e8b\u524d\u77bb",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u4e2d\u56fd\u8db3\u7403\u8d85\u7ea7\u8054\u8d5b",
+            "datetime_date": "\u4e0b\u4e2a\u661f\u671f"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u770b\u7075\u5f02\u63a8\u7406\u5c0f\u8bf4",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7075\u5f02\u63a8\u7406"
+        }
+    },
+    {
+        "text": "AXN",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "AXN"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u5b89\u9633\u5230\u90d1\u5dde\u7684\u52a8\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u52a8\u8f66",
+            "endLoc_city": "\u90d1\u5dde",
+            "startLoc_city": "\u5b89\u9633"
+        }
+    },
+    {
+        "text": "\u5e7f\u5dde\u6052\u5927\u6bd4\u8d5b\u6bd4\u5206\u3002",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5e7f\u5dde\u6052\u5927",
+            "type": "\u6bd4\u5206"
+        }
+    },
+    {
+        "text": "\u53bb\u5357\u660c\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5357\u660c"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u77e5\u9053\u73af\u7403\u5f71\u89c6\u660e\u5929\u64ad\u653e\u4ec0\u4e48\u7535\u5f71",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u660e\u5929"
+        }
+    },
+    {
+        "text": "\u8bf7\u80cc\u8bf5\u9759\u591c\u601d\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u9759\u591c\u601d"
+        }
+    },
+    {
+        "text": "\u73b0\u5728\u6d59\u6c5f\u536b\u89c6\u5728\u653e\u4ec0\u4e48\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "\u73b0\u5728",
+            "tvchannel": "\u6d59\u6c5f\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u897f\u7ea2\u67ff\u7092\u86cb\u600e\u4e48\u716e\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u897f\u7ea2\u67ff\u7092\u86cb"
+        }
+    },
+    {
+        "text": "\u82cd\u72fc",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u82cd\u72fc"
+        }
+    },
+    {
+        "text": "\u4ece\u5357\u4eac\u5230\u4eb3\u5dde\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_city": "\u4eb3\u5dde",
+            "startLoc_city": "\u5357\u4eac"
+        }
+    },
+    {
+        "text": "\u627e\u4e00\u4e0b\u975e\u8bda\u52ff\u6270\u5a31\u4e50\u8282\u76ee",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8282\u76ee",
+            "name": "\u975e\u8bda\u52ff\u6270",
+            "tag": "\u5a31\u4e50"
+        }
+    },
+    {
+        "text": "\u6c49\u5821\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u6c49\u5821"
+        }
+    },
+    {
+        "text": "\u4f60\u7ed9\u6211\u8bb2\u8bb2\u7ea2\u70e7\u8089\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7ea2\u70e7\u8089"
+        }
+    },
+    {
+        "text": "\u7ed9\u7238\u7238\u6253\u7535\u8bdd",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u7238\u7238"
+        }
+    },
+    {
+        "text": "\u4e0a\u6d77\u53bb\u6b66\u6c49\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6b66\u6c49",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u628a\u674e\u4f1a\u8ba1\u7684\u7535\u8bdd\u53d1\u7ed9\u5c0f\u6c5f",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "\u674e\u4f1a\u8ba1",
+            "receiver": "\u5c0f\u6c5f"
+        }
+    },
+    {
+        "text": "\u7f51\u4e0a\u6700\u706b\u7684\u5c0f\u8bf4\u6709\u54ea\u4e9b",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "popularity": "\u6700\u706b"
+        }
+    },
+    {
+        "text": "\u6253\u7535\u8bdd\u7ed9\u738b\u5927\u5934",
+        "domain": "telephone",
+        "intent": "DIAL",
+        "slots": {
+            "name": "\u738b\u5927\u5934"
+        }
+    },
+    {
+        "text": "\u80dc\u8005\u5373\u662f\u6b63\u4e49",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u80dc\u8005\u5373\u662f\u6b63\u4e49"
+        }
+    },
+    {
+        "text": "13\u5e74\u7684\u7535\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "datetime_date": "13\u5e74"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u56de\u590d\u8fd9\u4e2a\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {}
+    },
+    {
+        "text": "\u6240\u4ee5\u67e5\u5b66\u897f\u5b81\u7279\u94a2\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u897f\u5b81\u7279\u94a2"
+        }
+    },
+    {
+        "text": "\u80e1\u6b4c\u5fd8\u8bb0\u65f6\u95f4",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "artist": "\u80e1\u6b4c",
+            "song": "\u5fd8\u8bb0\u65f6\u95f4"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u770b\u4e00\u4e0b\u7cd6\u918b\u6392\u9aa8\u600e\u4e48\u70e7\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u7cd6\u918b\u6392\u9aa8"
+        }
+    },
+    {
+        "text": "\u5bcc\u745e\u7279\u88c5\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5bcc\u745e\u7279\u88c5"
+        }
+    },
+    {
+        "text": "\u8fc7\u6cb9\u8089\u571f\u8c46\u7247\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u8fc7\u6cb9\u8089\u571f\u8c46\u7247"
+        }
+    },
+    {
+        "text": "\u4e00\u52a0\u4e00\u7528\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e00\u52a0\u4e00",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u6b66\u6c49\u5230\u5357\u4eac\u7684\u673a\u7968",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5357\u4eac",
+            "startLoc_city": "\u6b66\u6c49"
+        }
+    },
+    {
+        "text": "\u53d1\u9001\u77ed\u4fe1\u7ed9\u9ec4\u542f\u8d85",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u9ec4\u542f\u8d85"
+        }
+    },
+    {
+        "text": "\u4e2d\u56fd\u79fb\u52a8\u901a\u4fe1\u7684\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4e2d\u56fd\u79fb\u52a8\u901a\u4fe1",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u7f57\u987f\u53d1\u5c55\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7f57\u987f\u53d1\u5c55"
+        }
+    },
+    {
+        "text": "\u8bf4\u841d\u535c\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u841d\u535c"
+        }
+    },
+    {
+        "text": "\u653e\u9996\u6b4c\u542c\u4e00\u4e0b\u4f60\u597d",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u6211\u4eec\u73b0\u5728\u5728\u4ec0\u4e48\u5730\u65b9",
+        "domain": "map",
+        "intent": "POSITION",
+        "slots": {}
+    },
+    {
+        "text": "\u64ad\u653e\u773c\u8272",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u773c\u8272"
+        }
+    },
+    {
+        "text": "\u5361\u9177\u5c11\u513f\u9891\u9053",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u5361\u9177\u5c11\u513f\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u6e56\u5357\u536b\u89c6\u73b0\u5728\u5728\u64ad\u4ec0\u4e48",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "\u73b0\u5728",
+            "tvchannel": "\u6e56\u5357\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u592e\u89c6\u4e09\u53f0\u73b0\u5728\u64ad\u653e\u4ec0\u4e48\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "\u73b0\u5728",
+            "tvchannel": "\u592e\u89c6\u4e09\u53f0"
+        }
+    },
+    {
+        "text": "\u9ad8\u6e05\u6c5f\u82cf",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6c5f\u82cf",
+            "resolution": "\u9ad8\u6e05"
+        }
+    },
+    {
+        "text": "\u770b\u770b\u5927\u4e50\u900f\u7684\u5f97\u5956\u53f7\u7801",
+        "domain": "lottery",
+        "intent": "NUMBER_QUERY",
+        "slots": {
+            "name": "\u5927\u4e50\u900f"
+        }
+    },
+    {
+        "text": "\u6e56\u5357\u536b\u89c6\u7535\u89c6\u8282\u76ee\u8868",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "\u6e56\u5357\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u770b\u4e2d\u592e\u4e03\u9891\u9053\u8bb2\u6b66\u5802\u8282\u76ee",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u8bb2\u6b66\u5802",
+            "tvchannel": "\u4e2d\u592e\u4e03\u9891\u9053"
+        }
+    },
+    {
+        "text": "\u67e5\u627e\u901a\u8baf\u5f55",
+        "domain": "app",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u901a\u8baf\u5f55"
+        }
+    },
+    {
+        "text": "\u8bf4\u4e00\u9996\u5510\u8bd7\u5427\uff01",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "dynasty": "\u5510"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u51fa\u53bb\u65c5\u6e38\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6211\u60f3\u51fa\u53bb\u65c5\u6e38",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u7b54\u590d\u90ae\u4ef6",
+        "domain": "email",
+        "intent": "REPLY",
+        "slots": {}
+    },
+    {
+        "text": "\u8d2b\u8840\u600e\u4e48\u6cbb\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u8d2b\u8840"
+        }
+    },
+    {
+        "text": "\u7ed9\u674e\u6167\u53d1\u4e2a\u77ed\u4fe1\u8bf4\u6211\u8981\u56de\u5bb6",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u6211\u8981\u56de\u5bb6",
+            "name": "\u674e\u6167"
+        }
+    },
+    {
+        "text": "\u5f00\u542f\u901a\u8baf\u5f55",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u901a\u8baf\u5f55"
+        }
+    },
+    {
+        "text": "\u90a3\u597d\uff0c\u90a3\u4f60\u544a\u8bc9\u6211\u897f\u7ea2\u67ff\u7092\u9e21\u86cb\uff0c\u600e\u4e48\u53bb\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u897f\u7ea2\u67ff\u7092\u9e21\u86cb"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u6606\u660e\u4e09\u516d\u96f6\u624b\u673a\u7f51",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u6606\u660e\u4e09\u516d\u96f6\u624b\u673a\u7f51"
+        }
+    },
+    {
+        "text": "\u5531\u4e00\u9996\u4e24\u53ea\u8774\u8776\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u4e24\u53ea\u8774\u8776"
+        }
+    },
+    {
+        "text": "\u6253\u5f00uc\u6d4f\u89c8\u5668\u767b\u5f55\u65b0\u6d6a\u7f51\u4e3b\u9875",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "uc\u6d4f\u89c8\u5668"
+        }
+    },
+    {
+        "text": "\u5317\u4eac\u8d22\u7ecf\u53f0",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u5317\u4eac\u8d22\u7ecf\u53f0"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u67e5\u4e00\u4e0b\uff0c\u4e73\u817a\u589e\u751f\u600e\u4e48\u6cbb\u7597\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u4e73\u817a\u589e\u751f"
+        }
+    },
+    {
+        "text": "\u660e\u5929\u957f\u6c99\u5230\u4e0a\u6d77\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e0a\u6d77",
+            "startDate_date": "\u660e\u5929",
+            "startLoc_city": "\u957f\u6c99"
+        }
+    },
+    {
+        "text": "\u6717\u8bfb\u4e00\u9996\u674e\u767d\u7684\u8bd7\u5457\uff01",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d"
+        }
+    },
+    {
+        "text": "\u53d1\u70e7\u597d\u5417\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u53d1\u70e7"
+        }
+    },
+    {
+        "text": "\u53d1\u77ed\u4fe1\u7ed9\u5f20\u4e09\u6211\u660e\u5929\u53bb\u5317\u4eac",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u6211\u660e\u5929\u53bb\u5317\u4eac",
+            "name": "\u5f20\u4e09"
+        }
+    },
+    {
+        "text": "\u7684\uff0c\u9178\u83dc\u9c7c\u600e\u4e48\u505a\uff1f\u600e\u4e48\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9178\u83dc\u9c7c"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u505a\u6d0b\u8471\u7092\u86cb\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u6d0b\u8471\u7092\u86cb"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u4e2d\u56fd\u5171\u4ea7\u515a\u7ae0\u7a0b",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e2d\u56fd\u5171\u4ea7\u515a\u7ae0\u7a0b"
+        }
+    },
+    {
+        "text": "\u798f\u5c14\u6469\u65af\u63a2\u6848\u96c6",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u798f\u5c14\u6469\u65af\u63a2\u6848\u96c6"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u8001\u5a46\u8fd9\u9996\u6b4c",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u8001\u5a46"
+        }
+    },
+    {
+        "text": "\u9e2d\u86cb\u600e\u4e48\u814c\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9e2d\u86cb"
+        }
+    },
+    {
+        "text": "\u9644\u8fd1\u6709\u6ca1\u6709\u7535\u5f71\u9662\u554a\uff1f",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u51c9\u62cc\u6d77\u5e26",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u51c9\u62cc\u6d77\u5e26"
+        }
+    },
+    {
+        "text": "\u4f60\u66fe\u7231\u8fc7\u6211\u5417\u7528\u82f1\u8bed\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4f60\u66fe\u7231\u8fc7\u6211\u5417",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u6253\u5f00qq\u6d4f\u89c8\u5668",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "qq\u6d4f\u89c8\u5668"
+        }
+    },
+    {
+        "text": "\u5f97\u4e86\u7070\u6307\u7532\u600e\u4e48\u529e\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u7070\u6307\u7532"
+        }
+    },
+    {
+        "text": "\u9c7c\u600e\u4e48\u505a\u83b1",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9c7c"
+        }
+    },
+    {
+        "text": "\u628a\u738b\u5efa\u6625\u7684\u7535\u8bdd\u53f7\u7801\u53d1\u7ed9\u5f20\u5b66\u653f",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "\u738b\u5efa\u6625",
+            "receiver": "\u5f20\u5b66\u653f"
+        }
+    },
+    {
+        "text": "8\u70b9\u6cb3\u5317\u536b\u89c6\u64ad\u653e\u8fc7\u604b\u4e86\u7231\u4e86",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_time": "8\u70b9",
+            "name": "\u604b\u4e86\u7231\u4e86",
+            "tvchannel": "\u6cb3\u5317\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u51fa\u79df\u8f66\u7684\u82f1\u6587\u600e\u4e48\u8bf4",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u51fa\u79df\u8f66",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u5e72\u9505\u9999\u8fa3\u867e",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u5e72\u9505\u9999\u8fa3\u867e"
+        }
+    },
+    {
+        "text": "\u7ffb\u8bd1\u6177\u6168\u6fc0\u6602",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u6177\u6168\u6fc0\u6602"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u542c\u4e16\u4e0a\u53ea\u6709\u5988\u5988\u597d\u8fd9\u9996\u6b4c\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u4e16\u4e0a\u53ea\u6709\u5988\u5988\u597d"
+        }
+    },
+    {
+        "text": "\u7231\u60c5\u5de5\u5bd3",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7231\u60c5\u5de5\u5bd3"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u6253\u5f00\u767e\u5ea6",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u767e\u5ea6"
+        }
+    },
+    {
+        "text": "\u6bdb\u6cfd\u4e1c\u7684\u8bd7\u54e6\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u6bdb\u6cfd\u4e1c"
+        }
+    },
+    {
+        "text": "\u738b\u83f2\u4f20\u5947\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "artist": "\u738b\u83f2",
+            "song": "\u4f20\u5947"
+        }
+    },
+    {
+        "text": "\u5f00\u542f\u96c5\u864e",
+        "domain": "website",
+        "intent": "OPEN",
+        "slots": {
+            "name": "\u96c5\u864e"
+        }
+    },
+    {
+        "text": "\u54e6\u94a2\u7ed3\u6784\u7684\u7535\u8bdd\u662f\u591a\u5c11",
+        "domain": "contacts",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u54e6\u94a2\u7ed3\u6784"
+        }
+    },
+    {
+        "text": "\u9ad8\u6e05\u6df1\u5733\u53f0",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6df1\u5733\u53f0",
+            "resolution": "\u9ad8\u6e05"
+        }
+    },
+    {
+        "text": "\u5982\u4f55\u505a\u897f\u7ea2\u67ff\u7092\u86cb\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u897f\u7ea2\u67ff\u7092\u86cb"
+        }
+    },
+    {
+        "text": "\u6c42\u7c73\u7ebf\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u7c73\u7ebf"
+        }
+    },
+    {
+        "text": "\u661f\u671f\u56db\u53bb\u4e0a\u6d77\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u4e0a\u6d77",
+            "startDate_date": "\u661f\u671f\u56db"
+        }
+    },
+    {
+        "text": "\u4ece\u6b66\u6c49\u5230\u676d\u5dde\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u676d\u5dde",
+            "startLoc_city": "\u6b66\u6c49"
+        }
+    },
+    {
+        "text": "\u63a8\u7406\u52a8\u6f2b",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u52a8\u6f2b",
+            "tag": "\u63a8\u7406"
+        }
+    },
+    {
+        "text": "\u827a\u9505\u8089\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u8089"
+        }
+    },
+    {
+        "text": "\u9c7c\u8089\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9c7c\u8089"
+        }
+    },
+    {
+        "text": "\u7ed9\u67e5\u4e50\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u67e5\u4e50"
+        }
+    },
+    {
+        "text": "\u4ece\u8fd9\u91cc\u53bb\u745e\u91d1\u8def\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u745e\u91d1\u8def"
+        }
+    },
+    {
+        "text": "\u968f\u4fbf\u5531\u9996\u6b4c\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u4e00\u4e2a\u9b3c\u5b50\u90fd\u4e0d\u7559",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e00\u4e2a\u9b3c\u5b50\u90fd\u4e0d\u7559"
+        }
+    },
+    {
+        "text": "\u4ece\u5408\u80a5\u5230\u5317\u4eac\u7684\u5217\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5317\u4eac",
+            "startLoc_city": "\u5408\u80a5"
+        }
+    },
+    {
+        "text": "\u641c\u72d7",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u641c\u72d7"
+        }
+    },
+    {
+        "text": "\u827a\u8f69\u7535\u5f71\u9662\u6700\u8fd1\u4e0a\u6620\u7684\u7535\u5f71\u6709\u54ea\u4e9b",
+        "domain": "cinemas",
+        "intent": "QUERY",
+        "slots": {
+            "theatre": "\u827a\u8f69\u7535\u5f71\u9662"
+        }
+    },
+    {
+        "text": "\u4f60\u4eca\u5929\u53bb\u4e86\u54ea\u91cc\u7528\u82f1\u6587\u600e\u4e48\u8bb2",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u4f60\u4eca\u5929\u53bb\u4e86\u54ea\u91cc",
+            "target": "\u82f1\u6587"
+        }
+    },
+    {
+        "text": "\u5218\u4e09\u59d0",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5218\u4e09\u59d0"
+        }
+    },
+    {
+        "text": "\u9999\u8549\u7528\u82f1\u8bed\u600e\u4e48\u8bb2",
+        "domain": "translation",
+        "intent": "TRANSLATION",
+        "slots": {
+            "content": "\u9999\u8549",
+            "target": "\u82f1\u8bed"
+        }
+    },
+    {
+        "text": "\u7ed9\u6211\u67e5\u4e0b\u660e\u5929\u51cc\u6668\u5728\u653e\u5988\u5988\u6765\u4e86",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "datetime_date": "\u660e\u5929",
+            "datetime_time": "\u51cc\u6668",
+            "name": "\u5988\u5988\u6765\u4e86"
+        }
+    },
+    {
+        "text": "\u540e\u5929\u4e0a\u6d77\u5230\u70df\u53f0\u7684\u706b\u8f66",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u70df\u53f0",
+            "startDate_date": "\u540e\u5929",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u53d1\u77ed\u4fe1\u7ed9\u738b\u4e8c\u767d\u53eb\u5979\u660e\u5929\u8fc7\u6765\u73a9",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u660e\u5929\u8fc7\u6765\u73a9",
+            "name": "\u738b\u4e8c\u767d"
+        }
+    },
+    {
+        "text": "\u4f20\u7b80\u8baf\u7ed9\u5bb6\u91cc",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u5bb6\u91cc"
+        }
+    },
+    {
+        "text": "\u524d\u5217\u817a\u708e\u8be5\u600e\u4e48\u6cbb\uff1f",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u524d\u5217\u817a\u708e"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u67e5\u4e00\u4e0b\u4ece\u5f00\u5c01\u5230\u90d1\u5dde\u7684\u706b\u8f66\u51e0\u70b9\u53d1",
+        "domain": "train",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u90d1\u5dde",
+            "startLoc_city": "\u5f00\u5c01"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u4e86\u89e3\u5730\u4ea7\u677f\u5757\u80a1\u7968\u73b0\u5728\u600e\u4e48\u6837",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u5730\u4ea7\u677f\u5757"
+        }
+    },
+    {
+        "text": "\u4e0a\u6d77\u5230\u5317\u4eac\u7684\u98de\u673a\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5317\u4eac",
+            "startLoc_city": "\u4e0a\u6d77"
+        }
+    },
+    {
+        "text": "\u628a\u5434\u742a\u7684\u7535\u8bdd\u53f7\u7801\u53d1\u7ed9\u5988\u54aa",
+        "domain": "message",
+        "intent": "SENDCONTACTS",
+        "slots": {
+            "name": "\u5434\u742a",
+            "receiver": "\u5988\u54aa"
+        }
+    },
+    {
+        "text": "\u5468\u9ed1\u9e2d\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "ingredient": "\u9e2d"
+        }
+    },
+    {
+        "text": "\u674e\u767d\u7684\u5c06\u8fdb\u9152\u3002",
+        "domain": "poetry",
+        "intent": "QUERY",
+        "slots": {
+            "author": "\u674e\u767d",
+            "name": "\u5c06\u8fdb\u9152"
+        }
+    },
+    {
+        "text": "\u571f\u8c46\u4e1d\u662f\u600e\u4e48\u7092\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u571f\u8c46\u4e1d"
+        }
+    },
+    {
+        "text": "\u641c\u7d22\u6e38\u620f",
+        "domain": "app",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6e38\u620f"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u627e\u4e00\u627e\u9f99\u95e8\u98de\u7532",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u9f99\u95e8\u98de\u7532"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u6c5f\u82cf\u536b\u89c6",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u6c5f\u82cf\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u6253\u5f00\u9177\u72d7\u5e76\u968f\u673a\u64ad\u653e",
+        "domain": "app",
+        "intent": "LAUNCH",
+        "slots": {
+            "name": "\u9177\u72d7"
+        }
+    },
+    {
+        "text": "\u7ed9\u4e39\u4e39\u53d1\u4fe1\u606f\u6211\u4e00\u4f1a\u513f\u5c31\u56de\u6765\u522b\u7b49\u6211\u4e86",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "content": "\u6211\u4e00\u4f1a\u513f\u5c31\u56de\u6765\u522b\u7b49\u6211\u4e86",
+            "name": "\u4e39\u4e39"
+        }
+    },
+    {
+        "text": "\u5e2e\u6211\u6253\u5f00\u6b65\u6b65\u60ca\u5fc3",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6b65\u6b65\u60ca\u5fc3"
+        }
+    },
+    {
+        "text": "\u70e4\u9e21\u7fc5\u600e\u4e48\u505a\u5440\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u70e4\u9e21\u7fc5"
+        }
+    },
+    {
+        "text": "\u6e56\u5357\u536b\u89c6\u653e\u4ec0\u4e48\u8282\u76ee\uff1f",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "tvchannel": "\u6e56\u5357\u536b\u89c6"
+        }
+    },
+    {
+        "text": "\u6211\u8981\u70b9\u65b0\u95fb\u3002",
+        "domain": "news",
+        "intent": "PLAY",
+        "slots": {}
+    },
+    {
+        "text": "\u510b\u5dde\u5230\u6d77\u53e3\u7684\u822a\u73ed",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u6d77\u53e3",
+            "startLoc_area": "\u510b\u5dde"
+        }
+    },
+    {
+        "text": "\u6362\u5230\u7c73\u8001\u9f20",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u7c73\u8001\u9f20"
+        }
+    },
+    {
+        "text": "\u9752\u6625\u671f\u649e\u4e0a\u66f4\u5e74\u671f\u4e8c",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u9752\u6625\u671f\u649e\u4e0a\u66f4\u5e74\u671f\u4e8c"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u8db3\u7403\u4e2d\u8d85\uff0c\u7b2c25\u8f6e\u7684\u6bd4\u8d5b\u65f6\u95f4\u3002",
+        "domain": "match",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u4e2d\u8d85"
+        }
+    },
+    {
+        "text": "\u5357\u660c\u5230\u5e7f\u5dde\u98de\u673a\u7968",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u5e7f\u5dde",
+            "startLoc_city": "\u5357\u660c"
+        }
+    },
+    {
+        "text": "\u9171\u6cb9\u9e21\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u9171\u6cb9\u9e21"
+        }
+    },
+    {
+        "text": "\u5317\u4eac\u5361\u9177\u718a\u51fa\u6ca1",
+        "domain": "epg",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u718a\u51fa\u6ca1",
+            "tvchannel": "\u5317\u4eac\u5361\u9177"
+        }
+    },
+    {
+        "text": "\u9655\u897f\u4e8c\u5957",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u9655\u897f\u4e8c\u5957"
+        }
+    },
+    {
+        "text": "\u8bb2\u4e2a\u8c1c\u8bed\u731c\u4e00\u4e0b\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u52a8\u7269\u8c1c\u8bed\u3002",
+        "domain": "riddle",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u52a8\u7269\u8c1c\u8bed"
+        }
+    },
+    {
+        "text": "\u4eba\u5fc3\u65e0\u7a77\u70e7\u8089\u7684\u505a\u6cd5\u3002",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u70e7\u8089"
+        }
+    },
+    {
+        "text": "\u9752\u5c9b\u6d77\u4fe1\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u6d77\u4fe1"
+        }
+    },
+    {
+        "text": "\u62db\u5546\u94f6\u884c\u6e2f\u80a1\u7684\u80a1\u4ef7",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u62db\u5546\u94f6\u884c"
+        }
+    },
+    {
+        "text": "\u8c03\u5230\u65b0\u7586\u7efc\u827a",
+        "domain": "tvchannel",
+        "intent": "PLAY",
+        "slots": {
+            "name": "\u65b0\u7586\u7efc\u827a"
+        }
+    },
+    {
+        "text": "\u5982\u4f55\u6cbb\u7597\u9f9f\u5934\u708e\u3002",
+        "domain": "health",
+        "intent": "QUERY",
+        "slots": {
+            "keyword": "\u9f9f\u5934\u708e"
+        }
+    },
+    {
+        "text": "\u641c\u4e00\u4e0b\u5c0f\u8bf4\u3002",
+        "domain": "novel",
+        "intent": "QUERY",
+        "slots": {}
+    },
+    {
+        "text": "\u6e05\u84b8\u9c7c\u600e\u4e48\u505a\uff1f\u5434\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u6e05\u84b8\u9c7c"
+        }
+    },
+    {
+        "text": "\u6211\u60f3\u770b\u7535\u5f71\u8d85\u4eba",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "category": "\u7535\u5f71",
+            "name": "\u8d85\u4eba"
+        }
+    },
+    {
+        "text": "\u67e5\u8be2\u4e1c\u65b9\u96c6\u56e2\u7684\u80a1\u7968",
+        "domain": "stock",
+        "intent": "QUERY",
+        "slots": {
+            "name": "\u4e1c\u65b9\u96c6\u56e2"
+        }
+    },
+    {
+        "text": "\u6765\u4e00\u9996\u9690\u5f62\u7684\u7fc5\u8180\u3002",
+        "domain": "music",
+        "intent": "PLAY",
+        "slots": {
+            "song": "\u9690\u5f62\u7684\u7fc5\u8180"
+        }
+    },
+    {
+        "text": "\u7ed9\u9ec4\u536b\u56fd\u53d1\u77ed\u4fe1",
+        "domain": "message",
+        "intent": "SEND",
+        "slots": {
+            "name": "\u9ec4\u536b\u56fd"
+        }
+    },
+    {
+        "text": "\u8150\u4e73\u8089\u600e\u4e48\u505a\uff1f",
+        "domain": "cookbook",
+        "intent": "QUERY",
+        "slots": {
+            "dishName": "\u8150\u4e73\u8089"
+        }
+    },
+    {
+        "text": "\u676d\u5dde\u5230\u90d1\u5dde\u98de\u673a\u7968",
+        "domain": "flight",
+        "intent": "QUERY",
+        "slots": {
+            "endLoc_city": "\u90d1\u5dde",
+            "startLoc_city": "\u676d\u5dde"
+        }
+    },
+    {
+        "text": "\u600e\u4e48\u53bb\u6cc9\u57ce\u5e7f\u573a",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u6cc9\u57ce\u5e7f\u573a"
+        }
+    },
+    {
+        "text": "\u7f8e\u56fd\u70ed\u95e8\u7684\u6050\u6016\u7535\u5f71",
+        "domain": "video",
+        "intent": "QUERY",
+        "slots": {
+            "area": "\u7f8e\u56fd",
+            "category": "\u7535\u5f71",
+            "popularity": "\u70ed\u95e8",
+            "tag": "\u6050\u6016"
+        }
+    },
+    {
+        "text": "\u53bb\u6c7d\u8f66\u5357\u7ad9\u600e\u4e48\u8d70",
+        "domain": "map",
+        "intent": "ROUTE",
+        "slots": {
+            "endLoc_poi": "\u6c7d\u8f66\u5357\u7ad9"
+        }
+    }
+]
